@@ -1,0 +1,18 @@
+﻿.lbl
+{display:inline-block; 
+ width:150px;
+}
+.txt
+{
+	width:300px;
+}
+.content
+{
+	width:452px;
+	height:200px;
+}
+.divButton
+{
+	text-align:right;
+}
+.divline{padding-top:1px; padding-bottom:1px;}

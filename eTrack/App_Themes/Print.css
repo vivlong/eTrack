@@ -1,0 +1,27 @@
+﻿.Button{padding:0!important;padding/**/:2px 0; cursor:hand;border:1px solid #3B6592;background-image:url(../Images/bnt_bg.gif);color:#000;line-height:120% ;}
+.Button{width:50px;height/**/:20px; padding-top:2px;}
+.Button1{padding:0!important;padding/**/:2px 0; cursor:hand;border:1px solid #3B6592;background-image:url(../Images/bnt_bg.gif);color:#000;line-height:120% ;}
+.Button1{width:60px;height/**/:20px; padding-top:2px;}
+.Label{color: #000; vertical-align:middle;height:18px;text-align:left;}
+.DropList{line-height: 120%;border: 1px solid #3B6592;}
+.TextBox{width:24px;line-height: 120%;border: 1px solid #3B6592;}
+.fLeft{text-align:left}
+
+#lblTitle{font-size:18pt;}
+#lblCompName{font-size:16pt;}
+#lblPrintTime{font-size:12pt; text-align :left;}
+#lblTime{font-size:12pt;}
+
+div span{font-size:12pt; font-weight:bold;}
+
+div tr{vertical-align:middle; line-height:120%; }
+div td{vertical-align:middle; line-height:120%; }
+div td{margin: 0px 1px; padding:0px 2px;border:1px solid black; }
+div th{margin: 0px 1px; padding:0px 2px;border:1px solid black; }
+
+@media Print {.NoPrint{display:none;}}
+@media Print {.Button { display: none; }}
+@media Print {.Button1 { display: none; }}
+@media Print {.Label{ display: none; }}
+@media Print {.DropList{ display: none; }}
+@media Print {.TextBox{ display: none; }}

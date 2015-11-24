@@ -1,0 +1,55 @@
+﻿body
+{
+  margin:0px;
+  text-align:center;
+  vertical-align:middle;
+  font-size: 14px;
+  font-family: 'ubunturegular', Arial, Helvetica, sans-serif;
+}
+.form-horizontal .control-label {
+  text-align:left;
+}
+.form-group {
+  margin-bottom: 5px;
+}
+.form-group label {
+  font-weight:normal;
+}
+.form-group .bold {
+  font-weight:bold;
+}
+.form-group .em09 {
+    font-size:0.9em;
+}
+.form-group-sm .input-xm 
+{
+    height:0.9em;   
+}
+.btn-blue 
+{
+  color: White;
+  background: none repeat scroll 0 0 #48b4d6;
+  border-color:#48b4d6;
+}
+.btn-blue:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
+  color: White;
+  background-color: #48b4d6;
+  border-color: #48b4d6;
+}
+#divLoginInfo
+{
+  margin: 0 auto;
+  width: 480px;
+}
+.divLogin 
+{
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+.divTitle
+{
+}
+.divLogo img{
+  max-width:176px;
+  max-height:96px;
+}

@@ -1,0 +1,12 @@
+﻿.headbackground{margin:0px;background-image:url(../Images/top.gif);background-repeat:repeat-x;overflow: hidden; }
+body{margin:0px;background-image:url(../Images/top.gif);background-repeat:repeat-x; }
+#divUsrMsg{float:left;position:relative;left:192px;top:7px;}
+#divDate{float:right;position:relative;right:4px;top:7px;}
+#divImage{float:right;position: absolute;right:4px;bottom:6px;clear:both}
+
+#imgSystemHelp{width:72px;height:19px; text-align:center; cursor:hand; display:none;}
+#imgLogin{width:72px;height:19px; text-align:center; cursor:hand;}
+#imgExit{width:72px;height:19px; text-align:center; cursor:hand;}
+.pandBotton{padding-bottom:10px; margin-left:3px; width:110px;}
+.hadBotton{padding-bottom:10px; margin-left:3px; width:80px;}
+.border0{border: 0px;}

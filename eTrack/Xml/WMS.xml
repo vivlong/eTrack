@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Do not comment in <GridView></GridView> node,please comment here.
+-->
+<GridView>
+  <Columns>
+    <FieldName>ProductCode</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>10</FieldWidth>
+    <Order>1</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Product Code</EnglishTitle>
+    <ChineseTitle>Product Code</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>ProductName</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>50</FieldWidth>
+    <Order>2</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Product Name</EnglishTitle>
+    <ChineseTitle>Product Name</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>PackQty</FieldName>
+    <FieldType>Integer</FieldType>
+    <FieldWidth>4</FieldWidth>
+    <Order>4</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Packing Balance</EnglishTitle>
+    <ChineseTitle>Packing Balance</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>wholeQty</FieldName>
+    <FieldType>Integer</FieldType>
+    <FieldWidth>4</FieldWidth>
+    <Order>5</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Whole Balance</EnglishTitle>
+    <ChineseTitle>Whole Balance</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>LooseQty</FieldName>
+    <FieldType>Integer</FieldType>
+    <FieldWidth>4</FieldWidth>
+    <Order>6</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Loose Balance</EnglishTitle>
+    <ChineseTitle>Loose Balance</ChineseTitle>
+  </Columns>
+</GridView>

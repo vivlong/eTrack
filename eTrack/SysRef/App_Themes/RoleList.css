@@ -1,0 +1,12 @@
+﻿.divline{text-align:center;padding-top:5px;padding-bottom:5px;}
+#divForm{text-align:center;vertical-align:middle;}
+#divSearch{width:100%;}
+#divSource{height:500px;width:100%;}
+#divBottomNav{text-align:right;}
+#divPerson{height:260px;overflow-y:scroll;width:99%;}
+#gvwPerson{width:99%;}
+#lblsRoleNo{display:inline-block;width:100px;}
+#txtsRoleNo{width:150px;}
+#lblsRoleName{display:inline-block;width:100px;}
+#txtsRoleName{width:150px;}
+.Hint{top:137px;left:59px;}

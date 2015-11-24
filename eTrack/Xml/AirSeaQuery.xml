@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Do not comment in <GridView></GridView> node,please comment here.
+-->
+<GridView>
+  <Property OrderBy="S_No" />
+  <Columns>
+    <FieldName>lNo</FieldName>
+    <FieldType>Integer</FieldType>
+    <FieldWidth>30</FieldWidth>
+    <Order>1</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>No.</EnglishTitle>
+    <ChineseTitle>No.</ChineseTitle>
+  </Columns>
+
+  <Columns>
+    <FieldName>AttachmentFlag</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>50</FieldWidth>
+    <Order>2</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>AttachmentFlag</EnglishTitle>
+    <ChineseTitle>AttachmentFlag</ChineseTitle>
+  </Columns>
+
+  <Columns>
+    <FieldName>JobNo</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>120</FieldWidth>
+    <Order>2</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Job No</EnglishTitle>
+    <ChineseTitle>Job No</ChineseTitle>
+  </Columns>
+
+  <Columns>
+    <FieldName>AwbBlNo</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>120</FieldWidth>
+    <Order>3</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>B/L No</EnglishTitle>
+    <ChineseTitle>B/L No</ChineseTitle>
+  </Columns>
+
+  <Columns>
+    <FieldName>CustomerRefNo</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>120</FieldWidth>
+    <Order>4</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Ref No</EnglishTitle>
+    <ChineseTitle>Ref No</ChineseTitle>
+  </Columns>
+
+  <Columns>
+    <FieldName>ETD</FieldName>
+    <FieldType>Date</FieldType>
+    <FieldWidth>80</FieldWidth>
+    <Order>5</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>ETD</EnglishTitle>
+    <ChineseTitle>ETD</ChineseTitle>
+    <EnglishFormat>dd/MM/yyyy</EnglishFormat>
+    <ChineseFormat>dd/MM/yyyy</ChineseFormat>
+  </Columns>
+
+  <Columns>
+    <FieldName>ETA</FieldName>
+    <FieldType>Date</FieldType>
+    <FieldWidth>80</FieldWidth>
+    <Order>6</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>ETA</EnglishTitle>
+    <ChineseTitle>ETA</ChineseTitle>
+    <EnglishFormat>dd/MM/yyyy</EnglishFormat>
+    <ChineseFormat>dd/MM/yyyy</ChineseFormat>
+  </Columns>
+
+  <Columns>
+    <FieldName>OriginCode</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>60</FieldWidth>
+    <Order>7</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Origin</EnglishTitle>
+    <ChineseTitle>Origin</ChineseTitle>
+  </Columns>
+
+  <Columns>
+    <FieldName>DestCode</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>60</FieldWidth>
+    <Order>8</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Destination</EnglishTitle>
+    <ChineseTitle>Destination</ChineseTitle>
+  </Columns>
+
+  <Columns>
+    <FieldName>Vessel</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>100</FieldWidth>
+    <Order>9</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Vessel</EnglishTitle>
+    <ChineseTitle>Vessel</ChineseTitle>
+  </Columns>
+
+  <Columns>
+    <FieldName>Pcs</FieldName>
+    <FieldType>int</FieldType>
+    <FieldWidth>80</FieldWidth>
+    <Order>10</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Pcs</EnglishTitle>
+    <ChineseTitle>Pcs</ChineseTitle>
+  </Columns>
+
+  <Columns>
+    <FieldName>GrossWeight</FieldName>
+    <FieldType>Decimal</FieldType>
+    <FieldWidth>80</FieldWidth>
+    <Order>11</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Weight</EnglishTitle>
+    <ChineseTitle>Weight</ChineseTitle>
+    <EnglishFormat>#,###0.000</EnglishFormat>
+    <ChineseFormat>#,###0.000</ChineseFormat>
+  </Columns>
+
+  <Columns>
+    <FieldName>Volume</FieldName>
+    <FieldType>Decimal</FieldType>
+    <FieldWidth>80</FieldWidth>
+    <Order>12</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Volume</EnglishTitle>
+    <ChineseTitle>Volume</ChineseTitle>
+    <EnglishFormat>#,###0.000</EnglishFormat>
+    <ChineseFormat>#,###0.000</ChineseFormat>
+  </Columns>
+
+  <Columns>
+    <FieldName>Status</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>80</FieldWidth>
+    <Order>13</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Status</EnglishTitle>
+    <ChineseTitle>Status</ChineseTitle>
+  </Columns>
+
+  <Columns>
+    <FieldName>DBName</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>80</FieldWidth>
+    <Order>14</Order>
+    <Visible>False</Visible>
+    <EnglishTitle>DBName</EnglishTitle>
+    <ChineseTitle>DBName</ChineseTitle>
+  </Columns>
+
+</GridView>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Do not comment in <GridView></GridView> node,please comment here.
+-->
+<GridView>
+  <Property OrderBy="S_No" />
+  <Columns>
+    <FieldName>LineItemNo</FieldName>
+    <FieldType>Integer</FieldType>
+    <FieldWidth>30</FieldWidth>
+    <Order>1</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>S/No</EnglishTitle>
+    <ChineseTitle>S/No</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>Pcs</FieldName>
+    <FieldType>Integer</FieldType>
+    <FieldWidth>9</FieldWidth>
+    <Order>2</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Pcs</EnglishTitle>
+    <ChineseTitle>Pcs</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>Weight</FieldName>
+    <FieldType>Integer</FieldType>
+    <FieldWidth>9</FieldWidth>
+    <Order>3</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Weight</EnglishTitle>
+    <ChineseTitle>Weight</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>Length</FieldName>
+    <FieldType>Integer</FieldType>
+    <FieldWidth>9</FieldWidth>
+    <Order>4</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Length</EnglishTitle>
+    <ChineseTitle>Length</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>Width</FieldName>
+    <FieldType>Integer</FieldType>
+    <FieldWidth>9</FieldWidth>
+    <Order>5</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Width</EnglishTitle>
+    <ChineseTitle>Width</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>Height</FieldName>
+    <FieldType>Integer</FieldType>
+    <FieldWidth>9</FieldWidth>
+    <Order>6</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Height</EnglishTitle>
+    <ChineseTitle>Height</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>Volume</FieldName>
+    <FieldType>Integer</FieldType>
+    <FieldWidth>9</FieldWidth>
+    <Order>6</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Volume</EnglishTitle>
+    <ChineseTitle>Volume</ChineseTitle>
+  </Columns>
+</GridView>

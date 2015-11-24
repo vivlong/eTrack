@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Do not comment in <GridView></GridView> node,please comment here.
+-->
+<GridView>
+  <Property OrderBy="sTitle" />
+  <Columns>
+    <FieldName>No</FieldName>
+    <FieldType>Integer</FieldType>
+    <FieldWidth>30</FieldWidth>
+    <Order>1</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>No.</EnglishTitle>
+    <ChineseTitle>No.</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>CompanyCode</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>100</FieldWidth>
+    <Order>2</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Comp Code</EnglishTitle>
+    <ChineseTitle>编号</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>CompanyName</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>400</FieldWidth>
+    <Order>3</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Comp Name</EnglishTitle>
+    <ChineseTitle>公司名称</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>Address1</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>400</FieldWidth>
+    <Order>4</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Comp Addr</EnglishTitle>
+    <ChineseTitle>公司地址</ChineseTitle>
+  </Columns>
+</GridView>

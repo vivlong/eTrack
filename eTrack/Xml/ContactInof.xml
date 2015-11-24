@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Do not comment in <GridView></GridView> node,please comment here.
+-->
+<GridView>
+  <Property OrderBy="LineItemNo" />
+  <Columns>
+    <FieldName>Title</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>20</FieldWidth>
+    <Order>1</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Title</EnglishTitle>
+    <ChineseTitle>Title</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>ContactName</FieldName>
+    <FieldType>ContactName</FieldType>
+    <FieldType>String</FieldType>
+    <FieldWidth>50</FieldWidth>
+    <Order>2</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Name</EnglishTitle>
+    <ChineseTitle>Name</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>Telephone</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>30</FieldWidth>
+    <Order>3</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Telephone</EnglishTitle>
+    <ChineseTitle>Telephone</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>Fax</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>30</FieldWidth>
+    <Order>4</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Fax</EnglishTitle>
+    <ChineseTitle>Fax</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>Handphone</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>30</FieldWidth>
+    <Order>5</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Handphone</EnglishTitle>
+    <ChineseTitle>Handphone</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>Email</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>50</FieldWidth>
+    <Order>6</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Email</EnglishTitle>
+    <ChineseTitle>Email</ChineseTitle>
+  </Columns>
+</GridView>

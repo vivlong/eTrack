@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Do not comment in <GridView></GridView> node,please comment here.
+-->
+<GridView>
+<Columns>
+	<FieldName>Vessel</FieldName>
+	<FieldType>String</FieldType>
+	<FieldWidth>180</FieldWidth>
+	<Order>1</Order>
+	<Visible>true</Visible>
+	<EnglishTitle>Vessel</EnglishTitle>
+	<ChineseTitle>Vessel</ChineseTitle>
+</Columns>
+<Columns>
+	<FieldName>Voyage</FieldName>
+	<FieldType>String</FieldType>
+	<FieldWidth>70</FieldWidth>
+	<Order>2</Order>
+	<Visible>true</Visible>
+	<EnglishTitle>Voyage</EnglishTitle>
+	<ChineseTitle>Voyage</ChineseTitle>
+</Columns>
+  <Columns>
+	<FieldName>Terminal</FieldName>
+	<FieldType>String</FieldType>
+	<FieldWidth>80</FieldWidth>
+	<Order>2</Order>
+	<Visible>true</Visible>
+	<EnglishTitle>Terminal</EnglishTitle>
+	<ChineseTitle>Terminal</ChineseTitle>
+</Columns>
+<Columns>
+	<FieldName>AtaDate</FieldName>
+	<FieldType>Date</FieldType>
+	<FieldWidth>70</FieldWidth>
+	<Order>3</Order>
+	<Visible>true</Visible>
+	<EnglishTitle>ETA SIN</EnglishTitle>
+	<ChineseTitle>ETA SIN</ChineseTitle>
+	<EnglishFormat>dd/MM/yyyy</EnglishFormat>
+	<ChineseFormat>dd/MM/yyyy</ChineseFormat>
+</Columns>
+  <Columns>
+    <FieldName>ETDDate</FieldName>
+    <FieldType>Date</FieldType>
+    <FieldWidth>80</FieldWidth>
+    <Order>4</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>ETD SIN</EnglishTitle>
+    <ChineseTitle>ETD SIN</ChineseTitle>
+    <EnglishFormat>dd/MM/yyyy</EnglishFormat>
+    <ChineseFormat>dd/MM/yyyy</ChineseFormat>
+  </Columns>
+	<Columns>
+		<FieldName>EtaDate</FieldName>
+		<FieldType>Date</FieldType>
+		<FieldWidth>70</FieldWidth>
+		<Order>5</Order>
+		<Visible>true</Visible>
+		<EnglishTitle>ETA Dest</EnglishTitle>
+		<ChineseTitle>ETA Dest</ChineseTitle>
+		<EnglishFormat>dd/MM/yyyy</EnglishFormat>
+		<ChineseFormat>dd/MM/yyyy</ChineseFormat>
+	</Columns>
+    <Columns>
+    <FieldName>ShippinglineName</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>290</FieldWidth>
+    <Order>6</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Carrier</EnglishTitle>
+    <ChineseTitle>Carrier</ChineseTitle>
+  </Columns>
+</GridView>

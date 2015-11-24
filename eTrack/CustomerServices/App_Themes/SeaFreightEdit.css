@@ -1,0 +1,60 @@
+﻿.divline{text-align:left;padding-top:1px;padding-bottom:1px; padding-left :18px;}
+#divForm{text-align:left;vertical-align:middle;}
+#divTopNav{width:793px;}
+#divMiddle1{height:492px;width:790px;padding-top:10px; overflow-y:scroll; overflow-x:auto;}
+#divMiddle2{height:492px;width:790px;padding-top:10px; overflow-y:scroll; overflow-x:auto;}
+#divBottomNav{text-align:right;width:772px;padding-top:8px; padding-right:20px;}
+
+#ulTopNav li span{width:130px;}
+
+#lblJobNo{display:inline-block;width:150px;}
+#txtJobNo{width:220px;}
+#lblRefNo{display:inline-block;width:150px;}
+#txtRefNo{width:220px;}
+#lblAWBBlNo{display:inline-block;width:150px;}
+#txtAWBBlNo{width:220px;}
+#lblMawbOBLNo{display:inline-block;width:150px;}
+#txtMawbOBLNo{width:220px;}
+#lblLoadPort{display:inline-block;width:150px;}
+#txtLoadPort{width:220px;}
+#lblDischargePort{display:inline-block;width:150px;}
+#txtDischargePort{width:220px;}
+#lblDirectVessel{display:inline-block;width:150px;}
+#txtDirectVessel{width:220px;}
+#lblMotherVessel{display:inline-block;width:150px;}
+#txtMotherVessel{width:220px;}
+#lblETD{display:inline-block;width:150px;}
+#txtETD{width:120px;}
+#lblETA{display:inline-block;width:10px;padding-left:5px;}
+#txtETA{width:120px;}
+#lblConnVessel{display:inline-block;width:150px;}
+#txtConnVessel{width:220px;}
+#lblConnETD{display:inline-block;width:150px;}
+#txtConnETD{width:120px;}
+#lblConnETA{display:inline-block;width:10px;padding-left:5px;}
+#txtConnETA{width:120px;}
+#lblCommodity{display:inline-block;width:150px;}
+#txtCommodity{width:263px;}
+#lblPcs{display:inline-block;width:150px;}
+#txtPcs{width:120px;text-align:right;}
+#lblGross{display:inline-block;width:10px;padding-left:5px;}
+#txtGross{width:120px;text-align:right;}
+#lblVolume{display:inline-block;width:10px;padding-left:5px;}
+#txtVolume{width:120px;text-align:right;}
+#lblFt20{display:inline-block;width:150px;}
+#txtFt20{width:120px;text-align:right;}
+#lblFt40{display:inline-block;width:10px;padding-left:5px;}
+#txtFt40{width:120px;text-align:right;}
+#lblFt45{display:inline-block;width:10px;padding-left:5px;}
+#txtFt45{width:120px;text-align:right;}
+#lblContainerNo{display:inline-block;width:150px;}
+#txtContainerNo{width:406px;}
+#lblTelexReleaseFlag{display:inline-block;width:150px;}
+#txtTelexReleaseFlag{width:25px;}
+
+#divSource{height:150px; overflow-y:scroll; overflow-x:auto; border:1px solid #3B6592; margin-left:18px; margin-top:10px;}
+#divSource{width:750px;}
+#gvwSource{width:750px;}
+
+#btnAdd{Width:70px; margin-right :550px;}
+

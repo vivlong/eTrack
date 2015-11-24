@@ -1,0 +1,14 @@
+﻿.divline{text-align:center;padding-top:5px;padding-bottom:5px;}
+#divForm{text-align:center;margin-top:20px;}
+#divTopNav{width:540px;}
+#divMiddle{text-align:center;width:538px;height:220px; padding-top:50px; }
+#divBottomNav{width:520px;padding-top:5px;padding-right:20px;}
+
+.CheckBox{display:inline-block;text-align:left;width:80px;}
+#txtQDate{width:75px}
+#txtZDate{width:75px}
+#btnQDate{width:20px}
+#btnZDate{width:20px}
+#lblTo{display:inline-block;width:30px;text-align:center;}
+#txtUser{width:234px}
+#txtRemark{width:234px}

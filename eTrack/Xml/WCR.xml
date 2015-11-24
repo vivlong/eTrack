@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Do not comment in <GridView></GridView> node,please comment here.
+-->
+<GridView>
+  <Property OrderBy="ContainerNo" />
+  <Columns>
+    <FieldName>Port</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>100</FieldWidth>
+    <Order>1</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Port</EnglishTitle>
+    <ChineseTitle>Port</ChineseTitle>
+  </Columns>
+  <!--1_Over 15 Days-->
+  <Columns>
+    <FieldName>20GP15</FieldName>
+    <FieldType>Intger</FieldType>
+    <FieldWidth>70</FieldWidth>
+    <Order>2</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>20GP15</EnglishTitle>
+    <ChineseTitle>20GP15</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>40HC15</FieldName>
+    <FieldType>Intger</FieldType>
+    <FieldWidth>70</FieldWidth>
+    <Order>3</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>40HC15</EnglishTitle>
+    <ChineseTitle>40HC15</ChineseTitle>
+  </Columns>
+  <!--2_Over 20 Days-->
+  <Columns>
+    <FieldName>20GP20</FieldName>
+    <FieldType>Intger</FieldType>
+    <FieldWidth>70</FieldWidth>
+    <Order>4</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>20GP20</EnglishTitle>
+    <ChineseTitle>20GP20</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>40HC20</FieldName>
+    <FieldType>Intger</FieldType>
+    <FieldWidth>70</FieldWidth>
+    <Order>5</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>40HC20</EnglishTitle>
+    <ChineseTitle>40HC20</ChineseTitle>
+  </Columns>
+  <!--3_Over 30 Days-->
+  <Columns>
+    <FieldName>20GP30</FieldName>
+    <FieldType>Intger</FieldType>
+    <FieldWidth>70</FieldWidth>
+    <Order>6</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>20GP30</EnglishTitle>
+    <ChineseTitle>20GP30</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>40HC30</FieldName>
+    <FieldType>Intger</FieldType>
+    <FieldWidth>70</FieldWidth>
+    <Order>7</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>40HC30</EnglishTitle>
+    <ChineseTitle>40HC30</ChineseTitle>
+  </Columns>
+  <!--4_Over 40 Days-->
+  <Columns>
+    <FieldName>20GP40</FieldName>
+    <FieldType>Intger</FieldType>
+    <FieldWidth>70</FieldWidth>
+    <Order>8</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>20GP40</EnglishTitle>
+    <ChineseTitle>20GP40</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>40HC40</FieldName>
+    <FieldType>Intger</FieldType>
+    <FieldWidth>70</FieldWidth>
+    <Order>9</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>40HC40</EnglishTitle>
+    <ChineseTitle>40HC40</ChineseTitle>
+  </Columns>
+  <!--5_Over 50 Days-->
+  <Columns>
+    <FieldName>20GP50</FieldName>
+    <FieldType>Intger</FieldType>
+    <FieldWidth>70</FieldWidth>
+    <Order>10</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>20GP50</EnglishTitle>
+    <ChineseTitle>50</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>40HC50</FieldName>
+    <FieldType>Intger</FieldType>
+    <FieldWidth>70</FieldWidth>
+    <Order>11</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>40HC50</EnglishTitle>
+    <ChineseTitle>40HC50</ChineseTitle>
+  </Columns>
+</GridView>

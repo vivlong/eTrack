@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "eTrackV10", "eTrackV10\", "{86CD0CE5-05BE-44F1-9F12-53A79003C07E}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = ""
+		SccAuxPath = ""
+		SccLocalPath = ""
+		SccProvider = ""
+		Frontpage = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{13E508D0-FBA4-4758-8702-D8362065F9DF}|ExportExcel.dll;{61A7BAF5-4BA8-45DC-BA6E-71043900291C}|SystemClass.dll;{21B2AD43-66DC-4E52-903C-C229D1F11373}|ZZMessage.dll;{34B1A98D-6EF1-4C61-BC59-9CF5EF75C627}|ZZStytem.dll;{22F18136-877B-4ED4-B7F7-88FC92827BCC}|ZZPage.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/eTrackV10"
+		Debug.AspNetCompiler.PhysicalPath = "eTrackV10\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\eTrackV10\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/eTrackV10"
+		Release.AspNetCompiler.PhysicalPath = "eTrackV10\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\eTrackV10\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "23760"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{34B1A98D-6EF1-4C61-BC59-9CF5EF75C627} = {34B1A98D-6EF1-4C61-BC59-9CF5EF75C627}
+		{61A7BAF5-4BA8-45DC-BA6E-71043900291C} = {61A7BAF5-4BA8-45DC-BA6E-71043900291C}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SystemClass", "Dll\SystemClass\SystemClass.vbproj", "{61A7BAF5-4BA8-45DC-BA6E-71043900291C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ZZPage", "Dll\ZZPage\ZZPage.vbproj", "{22F18136-877B-4ED4-B7F7-88FC92827BCC}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ZZStytem", "Dll\ZZStytem\ZZStytem.vbproj", "{34B1A98D-6EF1-4C61-BC59-9CF5EF75C627}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ZZMessage", "Dll\ZZMessage\ZZMessage\ZZMessage.vbproj", "{21B2AD43-66DC-4E52-903C-C229D1F11373}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ExportExcel", "Dll\ExportExcel\ExportExcel\ExportExcel.vbproj", "{13E508D0-FBA4-4758-8702-D8362065F9DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86CD0CE5-05BE-44F1-9F12-53A79003C07E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86CD0CE5-05BE-44F1-9F12-53A79003C07E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86CD0CE5-05BE-44F1-9F12-53A79003C07E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{86CD0CE5-05BE-44F1-9F12-53A79003C07E}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{61A7BAF5-4BA8-45DC-BA6E-71043900291C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61A7BAF5-4BA8-45DC-BA6E-71043900291C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61A7BAF5-4BA8-45DC-BA6E-71043900291C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61A7BAF5-4BA8-45DC-BA6E-71043900291C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22F18136-877B-4ED4-B7F7-88FC92827BCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22F18136-877B-4ED4-B7F7-88FC92827BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22F18136-877B-4ED4-B7F7-88FC92827BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22F18136-877B-4ED4-B7F7-88FC92827BCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34B1A98D-6EF1-4C61-BC59-9CF5EF75C627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34B1A98D-6EF1-4C61-BC59-9CF5EF75C627}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34B1A98D-6EF1-4C61-BC59-9CF5EF75C627}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34B1A98D-6EF1-4C61-BC59-9CF5EF75C627}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21B2AD43-66DC-4E52-903C-C229D1F11373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21B2AD43-66DC-4E52-903C-C229D1F11373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21B2AD43-66DC-4E52-903C-C229D1F11373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21B2AD43-66DC-4E52-903C-C229D1F11373}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13E508D0-FBA4-4758-8702-D8362065F9DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13E508D0-FBA4-4758-8702-D8362065F9DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13E508D0-FBA4-4758-8702-D8362065F9DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13E508D0-FBA4-4758-8702-D8362065F9DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

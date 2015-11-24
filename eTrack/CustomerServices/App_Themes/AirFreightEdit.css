@@ -1,0 +1,57 @@
+﻿.divline{text-align:left;padding-top:1px;padding-bottom:1px; padding-left:18px;}
+#divForm{text-align:left;vertical-align:middle;}
+#divTopNav{width:793px;}
+#divMiddle1{height:492px;width:790px;padding-top:10px; overflow-y:scroll; overflow-x:auto;}
+#divMiddle2{height:492px;width:790px;padding-top:10px; overflow-y:scroll; overflow-x:auto;}
+#divBottomNav{text-align:right;width:772px;padding-top:8px; padding-right:20px;}
+
+#ulTopNav li span{width:130px;}
+
+#lblJobNo{display:inline-block;width:150px;}
+#txtJobNo{width:220px;}
+#lblRefNo{display:inline-block;width:150px;}
+#txtRefNo{width:220px;}
+#lblAWBBlNo{display:inline-block;width:150px;}
+#txtAWBBlNo{width:220px;}
+#lblMawbOBLNo{display:inline-block;width:150px;}
+#txtMawbOBLNo{width:220px;}
+#lblOrigin{display:inline-block;width:150px;}
+#txtOrigin{width:220px;}
+#lblDestCode{display:inline-block;width:150px;}
+#txtDestCode{width:220px;}
+#lblFlightTo1{display:inline-block;width:150px;}
+#txtFlightTo1{width:50px;}
+#lblFlightBy1{display:inline-block;width:20px;}
+#txtFlightBy1{width:30px;}
+#lblFlightNo1{display:inline-block;width:20px;}	  
+#txtFlightNo1{width:100px;}
+#lblFlightDate1{display:inline-block;width:20px;}
+#txtFlightDate1{width:120px;}
+#lblFlightTo2{display:inline-block;width:150px;}
+#txtFlightTo2{width:50px;}
+#lblFlightBy2{display:inline-block;width:20px;}
+#txtFlightBy2{width:30px;}
+#lblFlightNo2{display:inline-block;width:20px;}	  
+#txtFlightNo2{width:100px;}
+#lblFlightDate2{display:inline-block;width:20px;}
+#txtFlightDate2{width:120px;}
+#lblFlightTo3{display:inline-block;width:150px;}
+#txtFlightTo3{width:50px;}
+#lblFlightBy3{display:inline-block;width:20px;}
+#txtFlightBy3{width:30px;}
+#lblFlightNo3{display:inline-block;width:20px;}	  
+#txtFlightNo3{width:100px;}
+#lblFlightDate3{display:inline-block;width:20px;}
+#txtFlightDate3{width:120px;}
+#lblPcs{display:inline-block;width:150px; }
+#txtPcs{width:120px;text-align:right;}
+#lblGross{display:inline-block;width:10px;padding-left:5px;}
+#txtGross{width:120px;text-align:right;}
+#lblCommodity{display:inline-block;width:150px;}
+#txtCommodity{width:263px;}
+
+#divSource{height:170px; overflow-y:scroll; overflow-x:auto; border:1px solid #3B6592; margin-left:18px; margin-top:10px;}
+#divSource{width:750px;}
+#gvwSource{width:750px;}
+
+#btnAdd{Width:70px; margin-right :550px;}

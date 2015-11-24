@@ -1,0 +1,10 @@
+﻿.divline{text-align:left;padding-top:5px;padding-bottom:5px;padding-left:10px}
+#divForm{text-align:center;}
+#divTopNav{width:470px;}
+#divMiddle{text-align:center;width:468px;height:260px; padding-top:1px; }
+#divBottomNav{width:450px;padding-top:5px;padding-right:20px;}
+
+.txtCondition{border:1px solid #3B6592;height:17px; width:260px;}
+.drpCondition{display:inline-block;width:150px;}
+
+

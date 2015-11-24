@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Do not comment in <GridView></GridView> node,please comment here.
+-->
+<GridView>
+  <Property OrderBy="S_No" />
+  <!--<Columns>
+    <FieldName>LineItemNo</FieldName>
+    <FieldType>Integer</FieldType>
+    <FieldWidth>30</FieldWidth>
+    <Order>1</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>No.</EnglishTitle>
+    <ChineseTitle>No.</ChineseTitle>
+  </Columns>-->
+  <Columns>
+    <FieldName>DateTime</FieldName>
+    <FieldType>DateTime</FieldType>
+    <FieldWidth>100</FieldWidth>
+    <Order>2</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Date</EnglishTitle>
+    <ChineseTitle>Date</ChineseTitle>
+    <EnglishFormat>dd/MM/yyyy</EnglishFormat>
+    <ChineseFormat>dd/MM/yyyy</ChineseFormat>
+  </Columns>
+  <Columns>
+    <FieldName>Description</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>350</FieldWidth>
+    <Order>3</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Description</EnglishTitle>
+    <ChineseTitle>Description</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>RefNo</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>200</FieldWidth>
+    <Order>4</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Ref No</EnglishTitle>
+    <ChineseTitle>Ref No</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>UpdateBy</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>100</FieldWidth>
+    <Order>5</Order>
+    <Visible>false</Visible>
+    <EnglishTitle>Update By</EnglishTitle>
+    <ChineseTitle>Update By</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>StatusCode</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>60</FieldWidth>
+    <Order>6</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Status</EnglishTitle>
+    <ChineseTitle>Status</ChineseTitle>
+  </Columns>
+</GridView>

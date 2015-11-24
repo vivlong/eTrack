@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Do not comment in <GridView></GridView> node,please comment here.
+-->
+<GridView>
+  <Property OrderBy="sTitle" />
+  <Columns>
+    <FieldName>No</FieldName>
+    <FieldType>Integer</FieldType>
+    <FieldWidth>30</FieldWidth>
+    <Order>1</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>No.</EnglishTitle>
+    <ChineseTitle>No.</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>sRoleNo</FieldName>
+    <SortField>sRoleNo</SortField>
+    <FieldType>String</FieldType>
+    <FieldWidth>150</FieldWidth>
+    <Order>2</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Role Code</EnglishTitle>
+    <ChineseTitle>编号</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>sRoleName</FieldName>
+    <SortField>sRoleNameNo</SortField>
+    <FieldType>String</FieldType>
+    <FieldWidth>320</FieldWidth>
+    <Order>3</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Role Name</EnglishTitle>
+    <ChineseTitle>角色</ChineseTitle>
+  </Columns>
+</GridView>

@@ -1,0 +1,10 @@
+﻿body {margin:0px;background-image:url(../Images/top_Orange.gif);background-repeat:repeat-x; }
+
+#divUsrMsg{float:left;position:relative;left:100px;top:7px;}
+#divDate{float:right;position:relative;right:4px;top:7px;}
+#divImage{float:right;position: absolute;right:4px;bottom:6px;clear:both}
+
+#imgSystemHelp{width:72px;height:19px; text-align:center; cursor:hand;}
+#imgLogin{width:72px;height:19px; text-align:center; cursor:hand;}
+#imgExit{width:72px;height:19px; text-align:center; cursor:hand;}
+#lblSiteCode{ margin-left :5px;}

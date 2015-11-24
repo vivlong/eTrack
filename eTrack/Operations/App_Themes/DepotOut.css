@@ -1,0 +1,38 @@
+﻿.divline{padding-top:1px; padding-bottom:1px;}
+#divForm{text-align:left;}
+#divTopNav{width:expression(document.body.clientWidth < 835? 835:document.body.clientWidth-2 +"px");}
+#divBottomNav{text-align:right; padding-top:8px;width:expression(document.body.clientWidth-10 < 835? 835:document.body.clientWidth-2 +"px");}
+#fsMiddle{width:expression(document.body.clientWidth-2 < 835? 835:document.body.clientWidth-2 +"px"); height :450px;}
+#ulTopNav li span.Size{width:100px;}
+#divMiddle11{float:left; margin-left:2px; margin-top:2px;margin-bottom:2px;}
+
+
+#divMiddle21{float:left; margin-left:2px; margin-top:2px;margin-bottom:2px;}
+#divMiddle22{float:left ;margin-right:2px;margin-top:2px;margin-bottom:2px; padding-left:50px}
+
+.CheckBox{display:inline-block;text-align:left;width:80px;}
+.CheckBox1{display:inline-block;text-align:left;width:20px;}
+.lbl{display:inline-block; width:180px; padding-left :5px;}
+.txt{width:100px; clear:both;}
+.bntDate{width:20px;}
+.txtDate{width:100px;}
+.inline{display:inline;}
+.twoLine{height: 40px;}
+.VoyageNo{display:inline-block; width:130px; padding-left :35px;}
+.Prot{display:inline-block; width:130px; padding-left :10px;}
+.txtProt{width:100px;}
+.10Width{width: 10%;}
+ /*Control Style*/
+.lblTop{vertical-align :top;}
+ #lblRegTrucking{height :48px;}
+.inner{width: 183px;height: 48px;float :left ;}
+.inner2{width: 250px;height: 48px;}
+* html .inner{display: inline;}
+/*for mozilla */
+html > body .inner{display: table;float: left;}
+/*for mozilla */
+@media all and (min-width: 0px)
+{/* opera 7 styles */
+html > body .inner{display: inline-block;float: none;}
+}
+ /*Control Style*/

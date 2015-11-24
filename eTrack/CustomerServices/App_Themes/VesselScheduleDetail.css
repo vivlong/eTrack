@@ -1,0 +1,28 @@
+﻿.divline{text-align:left;padding-top:1px;padding-bottom:1px; padding-left :18px;}
+#divForm{text-align:left;vertical-align:middle;}
+#divTopNav{width:750px;}
+#divMiddle1{height:492px;width:748px;padding-top:10px; overflow-y:scroll; overflow-x:auto;}
+
+#divBottomNav{text-align:right; padding-top:8px;padding-right:20px;}
+
+#ulTopNav li span{width:130px;}
+
+#lblVesselVoyage{display:inline-block;width:150px;}
+#txtVesselVoyage{width:220px;}
+#lbPortOfDischarge{display:inline-block;width:150px;}
+#txtPortOfDischarge{width:220px;}
+#lblArrivalDate{display:inline-block;width:150px;}
+#txtArrivalDate{width:220px;}
+#lblDepartureDate{display:inline-block;width:150px;}
+#txtDepartureDate{width:220px;}
+
+.lbl{display:inline-block;width:150px;}
+.txt{width:220px;}
+
+
+#divSource{height:300px; overflow-y:scroll; overflow-x:auto; border:1px solid #3B6592; margin-left:18px; margin-top:10px;}
+#divSource{width:680px;}
+#gvwSource{width:680px;}
+
+#btnAdd{Width:70px; margin-right :550px;}
+

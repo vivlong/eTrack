@@ -1,0 +1,30 @@
+﻿.divline{text-align:left;padding-top:3px;padding-bottom:3px;width:98%}
+.spanspace{width: 200px; display: inline-block;}
+.lbl{display:inline-block; width:60px;}
+.lbl2{display:inline-block; width:100px;}
+.lblcustomer{display:inline-block; width:150px;}
+.lblMonth{display:inline-block; width:60px; text-align :center ;}
+.lblBottom{display:inline-block; width:123px;}
+.txt{width:290px;}
+.bntDate{width:50px;}
+.txtDate{width:100px;}
+.divWMS{padding-left :10px; padding-top :3px; padding-bottom :3px;}
+.lblWMS{width:60px;display:inline-block; padding-left :10px;}
+.txtmin{width:18px;}
+.txtmin3{width:30px;}
+.txtLong{width:395px;}
+.txtLong2{width:360px;}
+#txtContant{width:98%; height :400px;}
+.drMon{width:150px;}
+.txtFir{width:350px;}
+
+.divUserAnalysis{ padding-left :5px; padding-top:5px;padding-bottom:5px; }	
+#drTopButton{display:inline-block ;}
+
+#drShow{width:200px;}
+.divSource2{height:515px; overflow-y:scroll; overflow-x:auto; border:1px solid #3B6592; margin-left:1px;}
+.divSource2{width:expression(document.body.clientWidth - 4 +"px");}
+
+.txt{width:290px;}
+.bntDate{width:20px;}
+.txtDate{width:100px;}

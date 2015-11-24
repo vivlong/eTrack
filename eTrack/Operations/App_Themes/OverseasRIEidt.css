@@ -1,0 +1,18 @@
+﻿.divline{text-align:center;padding-top:5px;padding-bottom:5px;}
+.divleft{text-align:left; height :24px; padding-left :10px; clear :both ;}
+#divForm{text-align:center;}
+#divTopNav{width:100%;}
+#divMiddle{text-align:center;width:538px;height:100px; padding-top:40px; }
+#divBottomNav{width:520px;padding-top:5px;padding-right:20px;}
+
+#ulTopNav li span{width:150px;}
+.lbl{display:inline-block; width:120px;}
+.lbl50{display:inline-block; width:50px;}
+.lbl90{display:inline-block; width:180px;}
+.lblDate{display:inline-block; width:100px;}
+#rblSC{display:inline}
+.blank{display:inline-block; width:100px;}
+.txt{width:100px; clear:both;}
+.bntDate{width:20px;}
+.txtDate{width:100px;}
+#divSearch{width:100%;padding-bottom:5px; height:170px;padding-top:5px;}

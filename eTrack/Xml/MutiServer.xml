@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--User Can config the MutilServer Info below.Make sure each Server Connection Info are right-->
+<MutiServer>
+  <Connection>
+    <Server>.\sql2000</Server>
+    <MutiDataBase>DmoFreight,DevFreight</MutiDataBase>
+    <UserId>sa</UserId>
+    <Password>sa</Password>
+    <Enable>false</Enable>
+  </Connection>
+  <Connection>
+    <Server>127.0.0.1\sql2000</Server>
+    <MutiDataBase>DmoFreight1,DevFreight2</MutiDataBase>
+    <UserId>sa</UserId>
+    <Password>sa</Password>
+    <Enable>false</Enable>
+  </Connection>
+</MutiServer>

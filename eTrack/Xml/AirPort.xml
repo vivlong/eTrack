@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Do not comment in <GridView></GridView> node,please comment here.
+-->
+<GridView>
+  <Columns>
+    <FieldName>AirportCode</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>10</FieldWidth>
+    <Order>1</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Airport Code</EnglishTitle>
+    <ChineseTitle>Airport Code</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>AirportName</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>50</FieldWidth>
+    <Order>2</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Airport Name</EnglishTitle>
+    <ChineseTitle>Airport Name</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>CountryCode</FieldName>
+    <FieldType>Integer</FieldType>
+    <FieldWidth>4</FieldWidth>
+    <Order>4</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Country Code</EnglishTitle>
+    <ChineseTitle>Country Code</ChineseTitle>
+  </Columns>
+</GridView>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Do not comment in <GridView></GridView> node,please comment here.
+-->
+<GridView>
+  <Property OrderBy="UserNo" />
+  <Columns>
+    <FieldName>No</FieldName>
+    <FieldType>Integer</FieldType>
+    <FieldWidth>30</FieldWidth>
+    <Order>1</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>No.</EnglishTitle>
+    <ChineseTitle>No.</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>lUserID</FieldName>
+    <SortField>lUserID</SortField>
+    <FieldType>String</FieldType>
+    <FieldWidth>100</FieldWidth>
+    <Order>2</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>User ID</EnglishTitle>
+    <ChineseTitle>编号</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>UserName</FieldName>
+    <SortField>UserName</SortField>    
+    <FieldType>String</FieldType>
+    <FieldWidth>150</FieldWidth>
+    <Order>3</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>User Name</EnglishTitle>
+    <ChineseTitle>姓名</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>StatusCode</FieldName>
+    <SortField>StatusCode</SortField>
+    <FieldType>String</FieldType>
+    <FieldWidth>50</FieldWidth>
+    <Order>4</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Status</EnglishTitle>
+    <ChineseTitle>状态</ChineseTitle>
+  </Columns>
+</GridView>

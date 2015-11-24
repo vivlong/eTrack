@@ -1,0 +1,34 @@
+﻿.divline{padding-top:1px; padding-bottom:1px}
+#divForm{text-align:left;}
+#divTopNav{width:970px;}
+#divMiddle1{width:1028px;}
+#divBottomNav{text-align:right;width:100%; padding-top:8px; padding-bottom :0px;}
+#ulTopNav li span.Size{width:100px;}
+.divLeft{float:left; margin-left:5px; margin-top:2px;margin-bottom:2px;}
+#divSource{width:99%;}
+.div{height:542px; width:900px; }
+.GvwView{width:910px}
+.lbl{display:inline-block; width:150px;}
+.lbl2{display:inline-block; width:310px;}
+.span{display:inline-block; width:123px;}
+.txt{width:290px;}
+.txt1{width:400px;}
+.txt2{width:250px;}
+.txt3{width:150px;}
+.bntDate{width:20px;}
+.txtDate{width:100px;}
+.txtValue{width:70px;}
+ .divPanding{padding-top:10px; padding-bottom:10px;}
+ .hr{color: Black; width :800px;}
+.colFileName{width:auto;overflow:hidden;}
+.colFileSize{width:100px;}
+.colFileDate{width:135px;}
+.colNo{width:30px;}
+.colModifyBy{width:110px;}
+.colModifyAt{width:110px;}
+.colTable{width:110px;}
+.colFieldName{width:110px;}
+.colType{width:110px;}
+.colLen{width:110px;}
+.colView{width:110px;}
+.divSource{overflow-y:scroll; overflow-x:auto; border:1px solid #3B6592; margin-left:1px;}

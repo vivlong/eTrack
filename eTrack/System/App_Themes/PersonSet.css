@@ -1,0 +1,21 @@
+﻿.divline{text-align:center;padding-top:5px;padding-bottom:5px;}
+#divForm{text-align:center;margin-top:20px;}
+#divTopNav{width:100%;}
+#divMiddle{text-align:center;width:100%;height:220px; padding-top:40px; }
+#divBottomNav{ text-align:right ; width:100%;padding-top:5px;}
+
+#ulTopNav li span{width:150px;}
+
+.CheckBox{display:inline-block;text-align:left;width:260px;}
+#lblFirstPage{display:inline-block;width:100px;}
+#drpFirstPage{width:150px;}
+#lblInfoSize{display:inline-block;width:150px;}
+#txtInfoSize{width:100px;}
+#lblSearchSize{display:inline-block;width:150px;}
+#txtSearchSize{width:100px;}
+#lblOpenSize{display:inline-block;width:150px;}
+#txtOpenSize{width:100px;}
+#lblDetailSize{display:inline-block;width:150px;}
+#txtDetailSize{width:100px;}
+#lblStatSize{display:inline-block;width:150px;}
+#txtStatSize{width:100px;}

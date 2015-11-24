@@ -1,0 +1,19 @@
+﻿.Hint{
+           cursor:default;
+           font:menutext;
+           position:absolute;
+           text-align:center;
+           font-family:Arial, Helvetica, sans-serif;
+           font-size:10pt;
+           float:right;
+           width:350px;
+           border:1 solid black;
+           display:none;
+           border:darkgray 1px solid;
+           height:36px;
+           padding-top:10px;
+           background-image:url(../Images/top.gif);
+           top:40px;
+           left:expression((document.body.clientWidth - 360) +"px");
+	}
+#HintMessage{width:350px;display:inline-block;}

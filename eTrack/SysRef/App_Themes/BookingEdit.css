@@ -1,0 +1,85 @@
+﻿.divline{padding-top:1px; padding-bottom:1px;}
+#divForm{text-align:left;}
+#divTopNav{width:970px;}
+#divMiddle1{width:1028px;}
+#divMiddle2{width:990px;display:none;}
+#divBottomNav{text-align:right; width:970px; padding-top:8px;padding-right:20px;}
+#ulTopNav li span.Size{width:100px;}
+#divMiddle11{float:left; margin-left:2px; margin-top:2px;margin-bottom:2px;}
+#divMiddle12{float:left ;margin-right:2px;margin-top:2px;margin-bottom:2px; padding-left:30px}
+#divMiddle21{float:left;margin-left:2px;margin-top:4px;margin-bottom:2px; }
+#divMiddle22{float:right;margin-right:2px;margin-top:4px;margin-bottom:2px;}
+#divPro{width:970px;float:left;margin-left:2px;margin-top:4px;margin-bottom:2px;}
+#divPro1{width:970px;float:left;margin-left:2px;margin-top:4px;margin-bottom:2px;}
+#divSource{width:970px;}
+
+#divMiddle3{width:1028px;display:none;}
+#divTester{float:left;margin-left:2px;margin-top:4px;margin-bottom:2px;width:970px;}
+#divMiddle4{width:910px; display:none;}
+#divAttach{height:542px; width:900px; }
+.GvwView{width:910px}
+.GvwView2{width:900px;}
+
+
+.CheckBox{display:inline-block;text-align:left;width:80px;}
+.CheckBox1{display:inline-block;text-align:left;width:20px;}
+.lbl{display:inline-block; width:120px;}
+.span{display:inline-block; width:120px;}
+.txt{width:290px;}
+.bntDate{width:20px;}
+.txtDate{width:100px;}
+.txtJobNo{width:137px;}
+.txtname{width:185px;}
+.ShotTitle{display:inline-block;width:80px;}
+.lblPcs{display:inline-block;width:90px;}
+.lbPacking{display:inline-block;width:117px;}
+.txtCon{width:40px;}
+.CarogTime{display:inline-block;width:140px;}
+.CarogTimeSpan{display:inline-block;width:143px;}
+.txtPcs{display:inline-block;width:88px;}
+.lblKG{display:inline-block;width:115px;}
+.txtKG{display:inline-block;width:100px;}
+#txtSpecialInstruction{height:90px; width:325px;}
+#lblSpecialInstruction{vertical-align :top;}
+.Dgblank{display:inline-block;width:84px;}
+.txtDgFlag{width:57px; text-align :right;}
+.txtDelivery{width:245px; display:inline-block;}
+.txtCon{width:50px;}
+.txtConl{width:65px;}
+.NoOfContainer{display:inline-block; width:146px;}
+.NoOfContainer2{display:inline-block; width:147px;}
+.txtOrder{width:180px;}
+#txtCargoTime{width:137px;}
+.origin{width:50px;}
+.txtorigin{width:235px;}
+.txtField{width:120px;}
+.lbladdblank{display:inline-block;width:30px;}
+.txtField{width:120px;}
+#lblPcs1{display:inline-block;width:122px;}
+#txtPcs1{width:122px;}
+#lblWeight1{display:inline-block;width:122px;}
+#Weight1{width:122px;}
+#lblLength1{display:inline-block;width:122px;}
+#txtLength1{width:122px;}
+#lblWidth1{display:inline-block;width:122px;}
+#txtWidth1{width:122px;}
+#lblHeight1{display:inline-block;width:122px;}
+#txtHeight1{width:122px;}
+#lblVolume1{display:inline-block;width:122px;}
+#txtVolume1{width:122px;}
+.txtVoyageName{width:130px;}
+.inline{display:inline-block;}
+
+
+.colFileName{width:auto;overflow:hidden;}
+.colFileSize{width:100px;}
+.colFileDate{width:135px;}
+
+.colNo{width:10px;}
+.colModifyBy{width:110px;}
+.colModifyAt{width:110px;}
+.colTable{width:110px;}
+.colFieldName{width:110px;}
+.colType{width:110px;}
+.colLen{width:110px;}
+.colView{width:110px;}

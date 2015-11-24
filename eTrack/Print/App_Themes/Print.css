@@ -1,0 +1,27 @@
+﻿.Button{padding:0!important;padding/**/:2px 0; cursor:hand;border:1px solid #3B6592;background-image:url(../../Images/bnt_bg.gif);color:#000;line-height:120% ;}
+.Button{width:75px;height/**/:20px; padding-top:1px; font-size:12px;}
+.Label{color: #000; vertical-align:middle;height:18px;text-align:left;}
+.DropList{line-height: 120%;border: 1px solid #3B6592;}
+.TextBox{width:24px;line-height: 120%;border: 1px solid #3B6592;}
+.fLeft{text-align:left}
+
+#lblTitle{font-size:20px;}
+#lblCompName{font-size:18px;}
+#lblPrintTime{font-size:16px; text-align :left; display:none;}
+#lblTime{font-size:16px; display:none;}
+
+div span{height:45px; font-size:14px; font-weight:bold; padding-bottom:5px;}
+
+div th{margin: 0px 1px; padding:0px 2px;border:1px solid black; font-size:14px;}
+div tr{vertical-align:middle; line-height:120%;font-size:14px; }
+div td{vertical-align:middle; line-height:120%; font-size:14px; }
+div td{margin: 0px 1px; padding:0px 2px;border:1px solid black; }
+.celCenter{text-align:center;}
+.CIDTitle{ position :absolute ; left :0px;}
+
+@media Print {.NoPrint{display:none;}}
+@media Print {.Button { display: none; }}
+@media Print {.Button1 { display: none; }}
+@media Print {.Label{ display: none; }}
+@media Print {.DropList{ display: none; }}
+@media Print {.TextBox{ display: none; }}

@@ -1,0 +1,20 @@
+﻿.divline{text-align:left;padding-top:5px;padding-bottom:5px;padding-left:20px;}
+#divForm{text-align:center;vertical-align:middle;}
+#divTopNav{width:470px;}
+#divMiddle1{height:220px;width:468px;padding-top:40px;}
+#divBottomNav{text-align:right;width:450px;padding-top:8px; padding-right:20px;}
+
+#ulTopNav li span{width:130px;}
+
+
+#lblJobNo{display:inline-block;width:100px;}
+#txtJobNo{width:120px;}
+#lblDateTime{display:inline-block;width:100px;}
+#txtDateTime{width:120px;}
+#btnDateTime{width:20px;}
+#lblDescription{display:inline-block;width:100px;}
+#txtDescription{width:120px;}
+#lblRefNo{display:inline-block;width:100px;}
+#txtRefNo{width:120px;}
+#lblStatusCode{display:inline-block;width:100px;}
+#drpStatusCode{width:120px;}

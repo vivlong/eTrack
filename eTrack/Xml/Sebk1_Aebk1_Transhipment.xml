@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Do not comment in <GridView></GridView> node,please comment here.
+-->
+<GridView>
+  <Property OrderBy="BookingNo" />
+  <Columns>
+    <FieldName>BookingNo</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>140</FieldWidth>
+    <Order>1</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Booking No.</EnglishTitle>
+    <ChineseTitle>Booking No.</ChineseTitle>
+  </Columns>
+<Columns>
+    <FieldName>jobno</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>120</FieldWidth>
+    <Order>2</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Export Job No.</EnglishTitle>
+    <ChineseTitle>Export Job No.</ChineseTitle>
+  </Columns>
+
+  <Columns>
+    <FieldName>BlAwbNo</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>120</FieldWidth>
+    <Order>3</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>BL/AWB No.</EnglishTitle>
+    <ChineseTitle>BL/AWB No.</ChineseTitle>
+  </Columns>
+
+  <Columns>
+    <FieldName>vesselname</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>100</FieldWidth>
+    <Order>4</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Vessel/Flight</EnglishTitle>
+    <ChineseTitle>Vessel/Flight</ChineseTitle>
+  </Columns>
+
+  <Columns>
+    <FieldName>etddate</FieldName>
+    <FieldType>DateTime</FieldType>
+    <FieldWidth>120</FieldWidth>
+    <Order>5</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>ETD</EnglishTitle>
+    <ChineseTitle>ETD</ChineseTitle>
+    <EnglishFormat>dd/MM/yyyy</EnglishFormat>
+    <ChineseFormat>dd/MM/yyyy</ChineseFormat>
+  </Columns>
+  
+  <Columns>
+    <FieldName>Etadate</FieldName>
+    <FieldType>DateTime</FieldType>
+    <FieldWidth>50</FieldWidth>
+    <Order>6</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>ETA</EnglishTitle>
+    <ChineseTitle>ETA</ChineseTitle>
+    <EnglishFormat>dd/MM/yyyy</EnglishFormat>
+    <ChineseFormat>dd/MM/yyyy</ChineseFormat>
+  </Columns>
+  
+  <Columns>
+    <FieldName>DeliveryAgentName</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>150</FieldWidth>
+    <Order>7</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Overseas Agent Name</EnglishTitle>
+    <ChineseTitle>Overseas Agent Name</ChineseTitle>
+  </Columns>
+</GridView>

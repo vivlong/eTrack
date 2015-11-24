@@ -1,0 +1,65 @@
+﻿.divline{padding-top:1px; padding-bottom:1px; padding-left:5px; padding-right:5px;}
+#divForm{text-align:left;overflow-y:scroll; overflow-x:hidden; height:658px;}
+#divTopNav{width:1000px;}
+#divMiddle1{width:998px; padding-top:15px; height:645px;}
+#divBottomNav{text-align:right; width:970px; padding-top:8px;padding-right:20px; padding-left:10px; }
+#divMiddle11{float:left; margin-left:2px; margin-top:2px;margin-bottom:2px; width:470px;}
+#divMiddle12{float:right ;margin-right:2px;margin-top:2px;margin-bottom:2px;width:516px;}
+
+#divMiddle13{float:left;
+			 margin-left:5px;
+			 margin-top:2px;
+			 overflow-y:scroll; 
+			 overflow-x:auto; 
+			 border:1px solid #3B6592;
+			 width:983px;
+			 Height:180px;}
+
+#txtQty{width:80px;}
+#txtUom{width:50px;}
+.Label{width:175px; display:inline-block; font-size:11px;}
+
+#lblQty{width:29px; display:inline-block; padding-left:55px;}
+#txtUom{width:30px;}
+
+#lblChargeWeight{width:86px; display:inline-block; padding-left:56px;}
+#txtChargeWeight{width:80px;}
+
+#lblHAwbOrHBlNo{width:86px; display:inline-block; padding-left:56px;}
+#txtHAwbOrHBlNo{width:80px;}
+
+#txtFltOrVoyNo{width:295px;}
+
+#txtAirportDeptOrPol{width:100px;}
+#lblEtd{width:20px; display:inline-block;padding-left:37px;}
+#txtEtd{width:70px;}
+
+#txtAirportDestOrPod{width:100px;}
+#lblEta{width:20px; display:inline-block;padding-left:37px;}
+#txtEta{width:70px;}
+
+#txtFinalPlaceOfDelivery{width:100px;}
+#lblDestEta{width:50px; display:inline-block; padding-left:7px;}
+#txtDestEta{width:70px;}
+
+.TextBox{width:95px;}
+.LongTextBox{width:275px;}
+.dteTextBox{width:80px;}
+.ShortTextBox{width:167px;}
+.SpecialTextBox{width:105px;}
+
+#drpStatus{height:20px;}
+
+.btnCloseJob{width:100px;}
+
+.ColStatusDate{}
+.ColCode{}
+.ColDescription{}
+.ColActivityDate{}
+.ColUpdateBy{}
+
+.gvwView{width:940px;}
+.btnAddStatus{Width:120px;}
+
+.dteButton{width: 20px;}
+

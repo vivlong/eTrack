@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Do not comment in <GridView></GridView> node,please comment here.
+-->
+<GridView>
+  <Columns>
+    <FieldName>Code</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>140</FieldWidth>
+    <Order>1</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Code</EnglishTitle>
+    <ChineseTitle>Code</ChineseTitle>
+  </Columns>
+<Columns>
+    <FieldName>Name</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>500</FieldWidth>
+    <Order>2</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Name</EnglishTitle>
+    <ChineseTitle>Name</ChineseTitle>
+  </Columns>
+</GridView>

@@ -1,0 +1,3 @@
+﻿<asp:GridView runat="server" SkinId="gridviewSkin" BackColor= "Black" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>

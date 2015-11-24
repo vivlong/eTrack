@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Do not comment in <GridView></GridView> node,please comment here.
+-->
+<GridView>
+  <Columns>
+    <FieldName>ProductCode</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>10</FieldWidth>
+    <Order>1</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Product Code</EnglishTitle>
+    <ChineseTitle>Product Code</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>ProductName</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>50</FieldWidth>
+    <Order>2</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Description</EnglishTitle>
+    <ChineseTitle>Description</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>BrandName</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>50</FieldWidth>
+    <Order>2</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Brand Name</EnglishTitle>
+    <ChineseTitle>Brand Name</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>BrandName</FieldName>
+    <FieldType>Integer</FieldType>
+    <FieldWidth>4</FieldWidth>
+    <Order>4</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>P/O[In]INV[Out]</EnglishTitle>
+    <ChineseTitle>P/O[In]INV[Out]</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>BrandName</FieldName>
+    <FieldType>Integer</FieldType>
+    <FieldWidth>4</FieldWidth>
+    <Order>5</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Ref[In]P/K[Out]</EnglishTitle>
+    <ChineseTitle>Ref[In]P/K[Out]</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>BrandName</FieldName>
+    <FieldType>Integer</FieldType>
+    <FieldWidth>4</FieldWidth>
+    <Order>6</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Ref[Out]</EnglishTitle>
+    <ChineseTitle>Ref[Out]</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>BrandName</FieldName>
+    <FieldType>Integer</FieldType>
+    <FieldWidth>4</FieldWidth>
+    <Order>6</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Opening</EnglishTitle>
+    <ChineseTitle>Opening</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>BrandName</FieldName>
+    <FieldType>Integer</FieldType>
+    <FieldWidth>4</FieldWidth>
+    <Order>6</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Stock In</EnglishTitle>
+    <ChineseTitle>Stock In</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>BrandName</FieldName>
+    <FieldType>Integer</FieldType>
+    <FieldWidth>4</FieldWidth>
+    <Order>6</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Stock Out</EnglishTitle>
+    <ChineseTitle>Stock Out</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>BrandName</FieldName>
+    <FieldType>Integer</FieldType>
+    <FieldWidth>4</FieldWidth>
+    <Order>6</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Balance</EnglishTitle>
+    <ChineseTitle>Balance</ChineseTitle>
+  </Columns>
+</GridView>

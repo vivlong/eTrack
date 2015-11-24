@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{61A7BAF5-4BA8-45DC-BA6E-71043900291C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SysMagic</RootNamespace>
+    <AssemblyName>SystemClass</AssemblyName>
+    <MyType>Windows</MyType>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SystemClass.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SystemClass.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomerServices\clsAirFreight.vb" />
+    <Compile Include="CustomerServices\clsContainerEnquiry.vb" />
+    <Compile Include="CustomerServices\clsJobStatus.vb" />
+    <Compile Include="CustomerServices\clsMatra.vb" />
+    <Compile Include="CustomerServices\clsPropContainerEnquiry.vb" />
+    <Compile Include="CustomerServices\clsPropMatra.vb" />
+    <Compile Include="CustomerServices\clsPropTracking.vb" />
+    <Compile Include="CustomerServices\clsQua.vb" />
+    <Compile Include="CustomerServices\clsPropQua.vb" />
+    <Compile Include="CustomerServices\clsPropSebl2_BL.vb" />
+    <Compile Include="CustomerServices\clsSebl2_BL.vb" />
+    <Compile Include="CustomerServices\clsIssue.vb" />
+    <Compile Include="CustomerServices\clsScan.vb" />
+    <Compile Include="Operates\clsCTCL.vb" />
+    <Compile Include="Operates\clsDepotIn.vb" />
+    <Compile Include="Operates\clsDepotOut.vb" />
+    <Compile Include="Operates\clsExportEvent.vb" />
+    <Compile Include="Operates\clsImportEvent.vb" />
+    <Compile Include="Operates\clsMultiType.vb" />
+    <Compile Include="Operates\clsOverseas.vb" />
+    <Compile Include="Operates\clsPropCTCL .vb" />
+    <Compile Include="Operates\clsPropDepotOut.vb" />
+    <Compile Include="Operates\clsPropExportEvent.vb" />
+    <Compile Include="Operates\clsPropImportEvent .vb" />
+    <Compile Include="Operates\clsPropRI.vb" />
+    <Compile Include="Operates\clsPropRO.vb" />
+    <Compile Include="Operates\clsPropRO2.vb" />
+    <Compile Include="Operates\clsPropSO.vb" />
+    <Compile Include="Operates\clsPropSO2.vb" />
+    <Compile Include="Operates\clsRI.vb" />
+    <Compile Include="Operates\clsRO.vb" />
+    <Compile Include="Operates\clsRO2.vb" />
+    <Compile Include="Operates\clsSO.vb" />
+    <Compile Include="Operates\clsSO2.vb" />
+    <Compile Include="Reference\clsAddressBook.vb" />
+    <Compile Include="Reference\clsContainerList.vb" />
+    <Compile Include="Reference\clsContainerMaster.vb" />
+    <Compile Include="Reference\clsEquipmentType.vb" />
+    <Compile Include="Reference\clsPropAddressBook.vb" />
+    <Compile Include="Reference\clsPropContainerList.vb" />
+    <Compile Include="Reference\clsPropContainerMaster.vb" />
+    <Compile Include="Reference\clsPropEquipmentType.vb" />
+    <Compile Include="Reference\clsTank.vb" />
+    <Compile Include="Reports\clsCID.vb" />
+    <Compile Include="Reports\clsCPC.vb" />
+    <Compile Include="Reports\clsDCS.vb" />
+    <Compile Include="Reports\clsWCR.vb" />
+    <Compile Include="SysRef\clsCTSTypeSort.vb" />
+    <Compile Include="SysRef\clsPropCTSTypeSort.vb" />
+    <Compile Include="SysRef\clsTypeSort.vb" />
+    <Compile Include="SysRef\clsPropTypeSort.vb" />
+    <Compile Include="System\clsCompany.vb" />
+    <Compile Include="clsGlobalConst.vb" />
+    <Compile Include="clsGlobalFun.vb" />
+    <Compile Include="CustomerServices\clsTracking.vb" />
+    <Compile Include="My Project\clsVessualSchedule.vb" />
+    <Compile Include="PurchaseOrder\clsEvent.vb" />
+    <Compile Include="PurchaseOrder\clsPO.vb" />
+    <Compile Include="PurchaseOrder\clsPopEvent.vb" />
+    <Compile Include="PurchaseOrder\clsPropPO.vb" />
+    <Compile Include="PurchaseOrder\clsOperateRecord.vb" />
+    <Compile Include="System\clsFunctionInfo.vb" />
+    <Compile Include="System\clsPerson.vb" />
+    <Compile Include="CustomerServices\clsBooking.vb" />
+    <Compile Include="SysRef\clsAttach.vb" />
+    <Compile Include="CustomerServices\clsPropBooking.vb" />
+    <Compile Include="CustomerServices\clsPropVessualSchedule.vb" />
+    <Compile Include="CustomerServices\clsPropWMS.vb" />
+    <Compile Include="CustomerServices\clsInventory.vb" />
+    <Compile Include="Statistics\clsUserAnalysis.vb" />
+    <Compile Include="Statistics\clsPropUserAnalysis.vb" />
+    <Compile Include="Statistics\clsCustomerAnalysis.vb" />
+    <Compile Include="Statistics\clsPropCustomerAnalysis.vb" />
+    <Compile Include="Statistics\clsJobAnalysis.vb" />
+    <Compile Include="Reference\clsBusinessParty.vb" />
+    <Compile Include="Reference\clsAirline.vb" />
+    <Compile Include="Reference\clsShippingLine.vb" />
+    <Compile Include="Reference\clsPropShippingLine.vb" />
+    <Compile Include="Reference\clsPropAirline.vb" />
+    <Compile Include="Reference\clsPropBusinessParty.vb" />
+    <Compile Include="System\clsPropFunctionInfo.vb" />
+    <Compile Include="System\clsSelectPerson.vb" />
+    <Compile Include="System\clsUser.vb" />
+    <Compile Include="CustomerServices\clsVessualSchedule.vb" />
+    <Compile Include="Sales\clsPropSaleActivity.vb" />
+    <Compile Include="Sales\clsSaleActivity.vb" />
+    <Compile Include="Sales\clsPropQuotation.vb" />
+    <Compile Include="Sales\clsQuotation.vb" />
+    <Compile Include="Sales\clsPropChargeCalculation.vb" />
+    <Compile Include="Sales\clsChargeCalculation.vb" />
+    <Compile Include="Document\clsPropAirwayBill.vb" />
+    <Compile Include="Document\clsAirwayBill.vb" />
+    <Compile Include="Document\clsPropBillofLading.vb" />
+    <Compile Include="Document\clsBillofLading.vb" />
+    <Compile Include="Document\clsPropDeliverOrder.vb" />
+    <Compile Include="Document\clsDeliverOrder.vb" />
+    <Compile Include="Document\clsManifest.vb" />
+    <Compile Include="Document\clsPropManifest.vb" />
+    <Compile Include="Document\clsPropInvoice.vb" />
+    <Compile Include="Document\clsInvoice.vb" />
+    <Compile Include="Document\clsPropStatement.vb" />
+    <Compile Include="Document\clsStatement.vb" />
+    <Compile Include="Sales\clsPropCostEnquiry.vb" />
+    <Compile Include="Sales\clsCostEnquiry.vb" />
+    <Compile Include="Document\clsPropAgeingReport.vb" />
+    <Compile Include="Document\clsAgeingReport.vb" />
+    <Compile Include="Statistics\clsPropJobAnalysis.vb" />
+    <Compile Include="SysRef\Diary.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Reference\clsPropAirPort.vb" />
+    <Compile Include="Reference\clsAirPort.vb" />
+    <Compile Include="Reference\clsPort.vb" />
+    <Compile Include="Reference\clsPropPort.vb" />
+    <Compile Include="Reference\clsCountry.vb" />
+    <Compile Include="Reference\clsPropCountry.vb" />
+    <Compile Include="Reference\clsContainerType.vb" />
+    <Compile Include="Reference\clsPropContainerType.vb" />
+    <Compile Include="Reference\clsCurrency.vb" />
+    <Compile Include="Reference\clsPropCurrency.vb" />
+    <Compile Include="CustomerServices\clsWMS.vb" />
+    <Compile Include="Statistics\clsVendorAnalysis.vb" />
+    <Compile Include="Statistics\clsPropVendorAnalysis.vb" />
+    <Compile Include="System\clsLog.vb" />
+    <Compile Include="PurchaseOrder\clsLineItemPO.vb" />
+    <Compile Include="PurchaseOrder\clsPropLineItemPO.vb" />
+    <Compile Include="PurchaseOrder\clsPropOperateRecord.vb" />
+    <Compile Include="System\clsRoleFunction.vb" />
+    <Compile Include="System\clsRoleInfo.vb" />
+    <Compile Include="System\clsSelectRole.vb" />
+    <Compile Include="System\clsGridSet.vb" />
+    <Compile Include="System\clsPropGridSet.vb" />
+    <Compile Include="System\clsGridSetEdit.vb" />
+    <Compile Include="System\clsPropGridSetEdit.vb" />
+    <Compile Include="Helps\tools.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomerServices\clsExportBooking.vb" />
+    <Compile Include="CustomerServices\clsPropExportBooking.vb" />
+    <Compile Include="CustomerServices\clsVessel.vb" />
+    <Compile Include="CustomerServices\clsPropVessel.vb" />
+    <Compile Include="CustomerServices\clsPropExportBookingSelect.vb" />
+    <Compile Include="CustomerServices\clsExportBookingSelect.vb" />
+    <Compile Include="Document\clsPropCargoLoadPlan.vb" />
+    <Compile Include="Document\clsPropExportBookingList.vb" />
+    <Compile Include="Document\clsCargoLoadPlan.vb" />
+    <Compile Include="Document\clsExportBookingList.vb" />
+    <Compile Include="Helps\Controls.vb" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Compile Include="Reference\clsEventTitle.vb" />
+    <Compile Include="Reference\clsSendEmail.vb" />
+    <Compile Include="System\clsInvalid.vb" />
+    <Compile Include="System\clsFunctionInfoSub.vb" />
+    <Compile Include="System\clsPropFunctionInfoSub.vb" />
+    <None Include="Web.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Dll\ZZMessage\ZZMessage\ZZMessage.vbproj">
+      <Project>{21b2ad43-66dc-4e52-903c-c229d1f11373}</Project>
+      <Name>ZZMessage</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Dll\ZZStytem\ZZStytem.vbproj">
+      <Project>{34b1a98d-6ef1-4c61-bc59-9cf5ef75c627}</Project>
+      <Name>ZZStytem</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,10 @@
+﻿.divline{text-align:left;padding-top:3px;padding-bottom:3px;width:98%}
+#divForm{text-align:left;}
+#lbPortOfDischarge{width:110px;display:inline-block;}
+#lbDepartureDate{width:110px;display:inline-block;}
+#lbDuring{width:50px;display:inline-block;}
+#drDuring{width:80px;}
+#drPortOfDischarge{width:130px;}
+#btnDepartureDate{width:20px;}
+#lblweek{width:60px;display:inline-block;}
+#gvwSource{width:750px;}

@@ -1,0 +1,43 @@
+﻿.divline{padding-top:0px; padding-bottom:0px;}
+#divForm{text-align:left;}
+
+ #divBottomNav{ width :100%; text-align:right; padding-top:8px; position:absolute ; bottom :5px; left:0px;}
+#ulTopNav li span.Size{width:100px;}
+#divMiddle11{float:left; margin-left:2px; margin-top:2px;margin-bottom:2px;}
+
+.tdBorder{border:0px;}
+.td{ border:0px; width:150px; background-color :#eeeeee;}
+ 
+.tdLong{ border:0px; width:400px;}
+.CheckBox{display:inline-block;text-align:left;width:80px;}
+.CheckBox1{display:inline-block;text-align:left;width:20px;}
+.lbl{display:inline-block; width:180px;height:25px; padding-left :5px; background-color :#eeeeee;}
+.lblInstructionTD{display:inline-block;width:180px; padding-left :5px; height :18px; background-color :#eeeeee; vertical-align :top;}
+.longTxt{width:550px;}
+.txtlongTxt{width:550px; height :60px;}
+.txt{width:100px; clear:both; display:inline;}
+.DropDown{width:102px; clear:both;  display:inline;}
+.bntDate{width:20px;}
+.txtDate{width:100px;}
+.inline{display:inline;}
+.twoLine{height: 40px;}
+.VoyageNo{display:inline-block; width:130px; padding-left :35px;}
+.Prot{display:inline-block; width:130px; padding-left :10px;}
+.txtProt{width:100px;}
+.10Width{width: 10%;}
+ /*Control Style*/
+.lblTop{vertical-align :top;}
+ #lblRegTrucking{height :48px;}
+.inner{width: 183px;height: 48px;float :left ;}
+.inner2{width: 250px;height: 48px;}
+* html .inner{display: inline;}
+/*for mozilla */
+html > body .inner{display: table;float: left;}
+/*for mozilla */
+@media all and (min-width: 0px)
+{/* opera 7 styles */
+html > body .inner{display: inline-block;float: none;}
+} 
+.btnITD{margin-left :5px;}
+#txtInstructionTD{margin-left :3px;}
+ /*Control Style*/

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Do not comment in <GridView></GridView> node,please comment here.
+-->
+<GridView>
+  <Property OrderBy="JobNo" />
+  <Columns>
+    <FieldName>JobNo</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>150</FieldWidth>
+    <Order>1</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Import Job No.</EnglishTitle>
+    <ChineseTitle>Import Job No.</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>AWBNo</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>100</FieldWidth>
+    <Order>2</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>AWB No.</EnglishTitle>
+    <ChineseTitle>AWB No.</ChineseTitle>
+  </Columns>
+
+  <Columns>
+    <FieldName>WeightValueFlag</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>100</FieldWidth>
+    <Order>3</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Frt</EnglishTitle>
+    <ChineseTitle>Frt</ChineseTitle>
+  </Columns>
+
+  <Columns>
+    <FieldName>FlightNo</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>100</FieldWidth>
+    <Order>4</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Flight No</EnglishTitle>
+    <ChineseTitle>Flight No</ChineseTitle>
+  </Columns>
+  
+  <Columns>
+    <FieldName>arrivaldatetime</FieldName>
+    <FieldType>DateTime</FieldType>
+    <FieldWidth>50</FieldWidth>
+    <Order>5</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>ETA</EnglishTitle>
+    <ChineseTitle>ETA</ChineseTitle>
+    <EnglishFormat>dd/MM/yyyy</EnglishFormat>
+    <ChineseFormat>dd/MM/yyyy</ChineseFormat>
+  </Columns>
+  
+  <Columns>
+    <FieldName>DestCode</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>50</FieldWidth>
+    <Order>6</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Dest</EnglishTitle>
+    <ChineseTitle>Dest</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>CommodityDescription</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>100</FieldWidth>
+    <Order>7</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Commodity</EnglishTitle>
+    <ChineseTitle>Commodity</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>Pcs</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>100</FieldWidth>
+    <Order>8</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Pcs</EnglishTitle>
+    <ChineseTitle>Pcs</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>GrossWeight</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>50</FieldWidth>
+    <Order>9</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Wt.</EnglishTitle>
+    <ChineseTitle>Wt.</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>GrossWeight</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>50</FieldWidth>
+    <Order>10</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Vol.</EnglishTitle>
+    <ChineseTitle>Vol.</ChineseTitle>
+  </Columns>
+</GridView>

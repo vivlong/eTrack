@@ -1,0 +1,23 @@
+﻿.divline{text-align:center;padding-top:5px;padding-bottom:5px;}
+#divForm{text-align:center;vertical-align:middle;}
+#divTopNav{width:100%;}
+#divMiddle1{height:270px;width:100%;padding-top:20px;}
+#divMiddle2{height:290px; right:0px;display:none;}
+#divBottomNav{text-align:right;width:100%;padding-top:8px;padding-right:20px;}
+#ulTopNav li span{width:105px;}
+#divRole{height:290px; overflow-y:scroll; width:99%;}
+
+.GvwView{width:100%;}
+.CheckBox{display:inline-block;text-align:left;width:100px;}
+#lblsUserNo{display:inline-block;width:110px;}
+#txtsUserNo{width:200px;}
+#lblsUserName{display:inline-block;width:110px;}
+#txtsUserName{width:200px;}
+#lblsPassword{display:inline-block;width:110px;}
+#txtsPassword{width:200px;}
+#lblPassword{display:inline-block;width:110px;}
+#txtPassword{width:200px;}
+#lblsDepartNo{display:inline-block;width:110px;}
+#drpsDepartNo{width:200px;}
+#lblPersonEmail{display:inline-block;width:110px;}
+#txtsPersonEmail{width:200px;}

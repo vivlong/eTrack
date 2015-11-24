@@ -1,0 +1,43 @@
+﻿.divline{text-align:left;padding-top:2px;padding-bottom:2px; padding-left:50px;}
+#divForm{text-align:center;vertical-align:middle;}
+#divTopNav{width:790px;}
+#divMiddle1{height:492px;width:788px;padding-top:10px; overflow-y:scroll; overflow-x:auto;}
+#divBottomNav{text-align:right;width:770px;padding-top:8px; padding-right:20px;}
+
+#ulTopNav li span{width:130px;}
+
+.lblShare{display:inline-block;width:200px;}
+
+.lblApprovals{display:inline-block;width:300px;}
+ 
+.txt{width:320px;}
+
+.DropDown{width:320px;}
+ 
+.btnDate{width:20px;}
+ 
+.alignRight{text-align:right;}
+#lblLengthTip{display:inline-block; width:30px;}
+
+#lblBreadthTip{display:inline-block;width:30px;}
+
+#lblHeightTip{display:inline-block;width:30px;}
+
+#lblCapacityTip{display:inline-block;width:30px;}
+
+#lblGrossWeightTip{display:inline-block;width:30px;}
+ 
+#lblTareWeightTip{display:inline-block;width:30px;}
+
+#lblWorkingPressureTip{display:inline-block;width:30px;}
+
+#lblTestingPressureTip{display:inline-block;width:30px;}
+
+#lblThicknessTip{display:inline-block;width:30px;}
+ 
+#lblSurfaceTip{display:inline-block;width:30px;}
+
+#lblSteamPressureTip{display:inline-block;width:30px;}
+ 
+#lblApprovals{display:inline-block;width:150px;height:48px; vertical-align:top;}
+#txtApprovals{width:320px;height:48px;}

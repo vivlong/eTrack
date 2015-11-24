@@ -1,0 +1,27 @@
+﻿.divline{padding-top:0px; padding-bottom:0px;}
+#divForm{text-align:left;}
+.divMiddle{width:100%; min-height: 498px; padding-left: 20px; padding-top: 10px}
+#divMiddle2{display:none;}
+#divBottomNav{text-align:right; padding-top:8px;padding-right:20px;}
+#ulTopNav li span.Size{width:100px;}
+
+.lbl{display:inline-block; width:120px;background-color:#D8EBFF; padding-left :5px;}
+.lab{color: #000; vertical-align:bottom;height:24px;text-align:left;font-weight:bolder; margin-bottom :2px;}
+.lblModule{display:inline-block; width:70px; padding-right :96px;}
+.span{display:inline-block; width:120px;}
+.txt{width:290px;}
+.txt2{width:400px;}
+.txtCon{width:60px;}
+.txtModule{width:50px;}
+.txtJobNo{width:137px;}
+
+.txtOrderType{width:60px;}
+.txtOrder{width:120px;}
+#txtCargoTime{width:137px;}
+.origin{width:100px;}
+.txtorigin{width:300px;}
+.txtdest{width:350px;}
+
+.txtVoyageName{width:130px;}
+.inline{display:inline-block;}
+.NoOfContainer{ margin-left :85px;}

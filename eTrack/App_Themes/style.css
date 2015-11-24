@@ -1,0 +1,210 @@
+body,form,html
+{
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+/*Left*/
+.bg_top_bg
+{
+    background: url(../image/system/top_bg.gif);
+    background-repeat: repeat-x;
+}
+/*Left*/
+A:link
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #000000;
+    font-size: 11px;
+}
+
+A:visited
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #000000;
+    font-size: 11px;
+}
+A:hover
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    border: thin none;
+    text-decoration: underline;
+}
+.showdata-tabe01
+{
+    border: 1px solid #6593CF;
+}
+.showdata-Gradient
+{
+    /*Filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr='#E0EDFF', endColorStr='#AFD2FF', gradientType='0');*/
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-top-color: #FFFFFF;
+    border-left-color: #FFFFFF;
+    height: 26px;
+}
+td
+{
+    font-family: "_black" , "Verdana" , "Arial";
+    font-size: 11px;
+}
+.showdata-btn02
+{
+    cursor: hand;
+    text-align: center;
+    height: 26px;
+}
+.showdata-btn01
+{
+    cursor: hand;
+    text-align: center;
+    height: 26px;
+    background-color: #B6BDD2;
+}
+.showdata-tab01
+{
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: outset;
+    border-top-color: #666666;
+    border-right-color: #666666;
+    border-bottom-color: #666666;
+    border-left-color: #CCCCCC;
+}
+.showdata-tab02
+{
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: #CCCCCC;
+    height: 3px;
+}
+.showdata-tab03
+{
+    background-color: #F2F2F2;
+    height: 26px;
+}
+.showdata-tab04
+{
+    height: 26px;
+}
+.showdata-tab05
+{
+    background-color: #E2FCFC;
+    height: 26px;
+}
+.formdata-tab01
+{
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: outset;
+    border-top-color: #666666;
+    border-right-color: #666666;
+    border-bottom-color: #666666;
+    border-left-color: #CCCCCC;
+}
+.formdata-tab02
+{
+    width: 100%;
+}
+.formdata-line1
+{
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #666666;
+}
+.formdata-line2
+{
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #CCCCCC;
+}
+.formdata-td1
+{
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 0px;
+    border-top-style: solid;
+    border-top-color: #FFFFFF;
+    border-left-style: solid;
+    border-left-color: #FFFFFF;
+    border-top-style: solid;
+    border-top-color: #FFFFFF;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    height: 26px;
+    background-color: #EAEAEA;
+}
+.InputStyle
+{
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom: #000000 1px solid;
+    background-color: #FFFFFF;
+}
+.formdata-top-button
+{
+    font-size: 12px;
+    background-image: url(../image/top_button.gif);
+    text-align: center;
+    vertical-align: middle;
+    width: 65px;
+    height: 26px;
+    background-repeat: no-repeat;
+    cursor: hand;
+}
+/************/
+/**page waitting**/
+.page-waitting
+{
+    background-image: url(../image/layer_bg.gif);
+}
+/****************/
+/**error text****/
+.error-text
+{
+    font-family: "_black" , "Verdana" , "Arial";
+    font-size: 12px;
+    color: #FF0000;
+}
+/****************/
+.rcon-treeLine
+{
+    background-image: url(../image/TreeLine.gif);
+}
+.guide-bg01
+{
+    background-image: url(../image/guide_bg01.gif);
+    text-align: center;
+    text-indent: 12px;
+    vertical-align: bottom;
+    line-height: 20px;
+    height: 24px;
+    width: 90px;
+}
+.guide-bg02
+{
+    background-image: url(../image/guide_bg02.gif);
+    text-align: center;
+    text-indent: 12px;
+    vertical-align: bottom;
+    line-height: 20px;
+    height: 24px;
+    width: 90px;
+}

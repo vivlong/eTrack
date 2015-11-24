@@ -1,0 +1,54 @@
+﻿.divline{top :3px;text-align:left;padding-top:3px;padding-bottom:3px;width:98%;
+	height: 24px;
+}
+.divWMS{padding-top:3px;padding-bottom:3px;}
+#lbAsonDate{width:110px;display:inline-block;}
+#lbMovenMentDate{width:110px;display:inline-block;}
+#lbProductCode{width:110px;display:inline-block;}
+#lbProductCode1{width:110px;display:inline-block;}
+#lblRefNo{width:110px;display:inline-block;}
+#lblRefNo1{width:110px;display:inline-block;}
+#lblRefNo2{width:100px;display:inline-block;}
+ 
+  #drDimensionFlag{width:102px;}
+.Drlist{width:150px;}
+#drWarehouseCode2{width:100px;}
+#drProductCodeField{width:130px;}
+#btnDepartureDate{width:20px;}
+#lblweek{width:60px;display:inline-block;}
+#lblCustomerCode{width:110px;display:inline-block;}
+#lblCustomerCode1{width:110px;display:inline-block;}
+.spanspace{width: 200px; display: inline-block;}
+
+.lbl{display:inline-block; width:120px;}
+.lbl2{display:inline-block; width:100px;}
+.lbl4{display:inline-block; width:110px;}
+.lbl3{display:inline-block; width:100px;}
+.lblDate{display:inline-block; width:103px;}
+.lblDimensionFlag{display:inline-block; width:120px;}
+.lblBottom{display:inline-block; width:123px;}
+.txt{width:290px;}
+.txt2{width:200px;}
+.bntDate{width:20px;}
+.txtDate{width:100px;}
+.txtDate2{width:105px;}
+.txtDate1{width:80px;}
+.txtDate0{width:75px;}
+.lblWMS{width:60px;display:inline-block; padding-left :10px;}
+.txtmin{width:18px;}
+.txtmin3{width:30px;}
+.txtLong{width:395px;}
+.txtLong2{width:360px;}
+#txtContant{width:98%; height :400px;}
+.drMon{width:150px;}
+.txtFir{width:350px;}
+.txtFir2{width:300px;}
+
+.divSearch{width: 810px;padding:5px 0px 5px 10px; height:115px; padding-right:20px;}	
+.divSearch{float:left; clear:both }
+.divSearch input.txtSearch{ height:19px!important;height:18px}	
+.divSearch input.txtSearch{width:300px;}
+.divSearch .drpSearch{width:120px;}
+
+table tr td{border:1px solid #F0F0F0; }
+

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Do not comment in <GridView></GridView> node,please comment here.
+-->
+<GridView>
+  <Property OrderBy="ContainerNo" />
+  <Columns>
+    <FieldName>PortOfDischargeCode</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>120</FieldWidth>
+    <Order>1</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>POD</EnglishTitle>
+    <ChineseTitle>POD</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>ContainerNo</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>200</FieldWidth>
+    <Order>2</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>CONTAINER NO</EnglishTitle>
+    <ChineseTitle>CONTAINER NO</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>EquipmentType</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>80</FieldWidth>
+    <Order>3</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>SIZE</EnglishTitle>
+    <ChineseTitle>SIZE</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>EtaDate</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>100</FieldWidth>
+    <Order>4</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>ETA</EnglishTitle>
+    <ChineseTitle>ETA</ChineseTitle>
+    <EnglishFormat>dd-MMM-yy</EnglishFormat>
+    <ChineseFormat>dd-MMM-yy</ChineseFormat>
+  </Columns>
+  <Columns>
+    <FieldName>VesselName</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>100</FieldWidth>
+    <Order>5</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>VESSEL</EnglishTitle>
+    <ChineseTitle>VESSEL</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>VoyageNo</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>100</FieldWidth>
+    <Order>6</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>VOY</EnglishTitle>
+    <ChineseTitle>VOY</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>ConsigneeName</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>200</FieldWidth>
+    <Order>7</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>CONSIGNEE</EnglishTitle>
+    <ChineseTitle>CONSIGNEE</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>ldleDays</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>80</FieldWidth>
+    <Order>8</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>LDLE DAYS</EnglishTitle>
+    <ChineseTitle>LDLE DAYS</ChineseTitle>
+  </Columns>
+</GridView>

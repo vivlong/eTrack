@@ -1,0 +1,71 @@
+﻿input.btnFnt{width:50px;height/**/:20px; margin-left:8px;padding-left:4px;cursor:pointer; padding-top:2px}
+input.checkbox{width:14px;height:14px; }
+/*#divSearch{padding-bottom :3px; padding-left :3px; padding-top: 3px; vertical-align :middle ; width :700px; height :25px;display:inline ;}*/
+.searchICO{background:url(../images/search.gif) no-repeat;border:1px solid #19077d; vertical-align:bottom ;}
+.searchICO{width:18px; height:17px; border-right:0px; padding-top :3px;}	  	  
+#divSearch input.txtSearch{ height:19px!important;height:18px}	
+#divSearch input.txtSearch{width:300px;}
+#divSearch .drpSearch{width:120px;}
+#divSearch{width:720px;}
+.divSource1{overflow-y:scroll; overflow-x:auto; border:1px solid #19077d; margin-left:1px;}
+#divSource{overflow-y:scroll; overflow-x:auto; border:1px solid #19077d; margin-left:1px;}
+#divSource{min-width: 760px;width:99%;}/*--width:expression(document.body.clientWidth < 750? "760px":"99%");*/
+.divWid{min-width: 760px;width:99%;}/*width:expression(document.body.clientWidth < 750? "760px":"99%");*/
+#gvwSource{width:expression(document.body.clientWidth - 22 +"px");border-color:#19077d; }
+#gvwSource{ word-wrap:break-word; word-break;
+	margin-top: 0px;
+}
+
+.divSource{overflow-y:scroll; overflow-x:auto; border:1px solid #19077d; margin-left:1px;min-width: 760px;width:expression(document.body.clientWidth < 760? "760px":"99%");width:99%;}
+
+.gvwSource{width:expression(document.body.clientWidth - 22 +"px");word-wrap:break-word; word-break;break-all; }
+
+
+#divPage{margin-top:2px; margin-bottom:2px; padding-right:20px;}
+#divPage{float:left;clear:none}
+
+.divLine{position: relative;left: 2px;float: left;height: 24px;clear: both;}
+.divLine{width:99%}
+
+
+#txtPage{width:30px;}
+#lblPage{ display:inline-block; margin-left:2px;margin-right:5px;width:100px;}
+#lbtnFirst{ display:inline-block; margin-left:2px;margin-right:2px;}
+#lbtnPrior{ display:inline-block; margin-left:2px;margin-right:2px;}
+#lbtnNext{ display:inline-block; margin-left:2px;margin-right:2px;}
+#lbtnLast{ display:inline-block; margin-left:2px;margin-right:2px;}
+#lbtnGoTo{ display:inline-block; margin-left:2px;margin-right:2px;}
+
+.skin{
+           cursor:default;
+           font:menutext;
+           position:absolute;
+           text-align:left;
+           font-family: Arial, Helvetica, sans-serif;
+           font-size: 10pt;
+           width:180px;
+           border:1 solid black;
+           display:none;
+           border: darkgray 1px solid;
+           background:url(../Images/Popupmenu.gif) repeat-y;
+	}
+.menuitems {
+		padding-left:38px;
+		padding-right:10px;
+		padding-top:2px;
+		padding-bottom:2px; 
+	}
+.separator{
+	height:1px;
+}
+
+#MsgBox {position:absolute;display:none;left:50%;margin-left:-150px;top:60px;width:300px;font:9pt/28px 'tahoma';border:1px solid #19077d;MARGIN:0px auto; TEXT-ALIGN:center}
+#MsgBox .bar {background:url(images/msgboxbar.gif) no-repeat #19077d;height:28px;color:#19077d;text-align:left;padding-left:8px}
+#MsgBox .content {padding-top:36px;height:100px;border:1px solid #19077d;background:url(../images/msgboxbg.gif) 0 -20px #fff;color:#19077d;}	
+
+#btnPrint{width:50px;}
+#btnToExcel{width:80px;}
+#btnDisplay{width:98px;}
+#btnAdvSearch{width:60px;}
+.tr25{ height: 25px;}
+.tdborder0{ border:0px; width :25%;}

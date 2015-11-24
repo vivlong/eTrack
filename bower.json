@@ -1,0 +1,21 @@
+{
+  "name": "eTrack",
+  "version": "10.0.9",
+  "authors": [
+    "vivlong <vivlonglz@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.11.3",
+    "art-dialog": "~6.0.4",
+    "bootstrap": "~3.3.5"
+  }
+}

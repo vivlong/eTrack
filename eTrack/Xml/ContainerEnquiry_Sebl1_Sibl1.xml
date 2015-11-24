@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Do not comment in <GridView></GridView> node,please comment here.
+-->
+<GridView>
+  <Columns>
+    <FieldName>TableName</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>180</FieldWidth>
+    <Order>1</Order>
+    <Visible>False</Visible>
+    <EnglishTitle>Table Name</EnglishTitle>
+    <ChineseTitle>Table Name</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>TrxNo</FieldName>
+    <FieldType>Integer</FieldType>
+    <FieldWidth>180</FieldWidth>
+    <Order>2</Order>
+    <Visible>False</Visible>
+    <EnglishTitle>Trx No</EnglishTitle>
+    <ChineseTitle>Trx No</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>LineItemNo</FieldName>
+    <FieldType>Integer</FieldType>
+    <FieldWidth>180</FieldWidth>
+    <Order>3</Order>
+    <Visible>False</Visible>
+    <EnglishTitle>Item No</EnglishTitle>
+    <ChineseTitle>Item No</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>ContainerNo</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>120</FieldWidth>
+    <Order>4</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Container</EnglishTitle>
+    <ChineseTitle>Container</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>ContainerType</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>50</FieldWidth>
+    <Order>5</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Type</EnglishTitle>
+    <ChineseTitle>Type</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>VesselVoyage</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>140</FieldWidth>
+    <Order>6</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Vessel / Voyage</EnglishTitle>
+    <ChineseTitle>Vessel / Voyage</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>PortOfLoadingCode</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>50</FieldWidth>
+    <Order>7</Order>
+    <Visible>False</Visible>
+    <EnglishTitle>POL</EnglishTitle>
+    <ChineseTitle>POL</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>EtdDate</FieldName>
+    <FieldType>Date</FieldType>
+    <FieldWidth>70</FieldWidth>
+    <Order>8</Order>
+    <Visible>True</Visible>
+    <EnglishTitle>ETD (Origin)</EnglishTitle>
+    <ChineseTitle>ETD (Origin)</ChineseTitle>
+    <EnglishFormat>dd/MM/yyyy</EnglishFormat>
+    <ChineseFormat>dd/MM/yyyy</ChineseFormat>
+  </Columns>
+  <Columns>
+    <FieldName>PortofDischargeCode</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>50</FieldWidth>
+    <Order>9</Order>
+    <Visible>True</Visible>
+    <EnglishTitle>POD</EnglishTitle>
+    <ChineseTitle>POD</ChineseTitle>
+  </Columns>
+    <Columns>
+    <FieldName>EtaDate</FieldName>
+    <FieldType>Date</FieldType>
+    <FieldWidth>70</FieldWidth>
+    <Order>10</Order>
+    <Visible>False</Visible>
+    <EnglishTitle>ETA (Dest)</EnglishTitle>
+    <ChineseTitle>ETA (Dest)</ChineseTitle>
+    <EnglishFormat>dd/MM/yyyy</EnglishFormat>
+    <ChineseFormat>dd/MM/yyyy</ChineseFormat>
+  </Columns>
+  <Columns>
+    <FieldName>DischargeDate</FieldName>
+    <FieldType>Date</FieldType>
+    <FieldWidth>110</FieldWidth>
+    <Order>11</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Discharge Date</EnglishTitle>
+    <ChineseTitle>Discharge Date</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>FinalDestDate</FieldName>
+    <FieldType>Date</FieldType>
+    <FieldWidth>90</FieldWidth>
+    <Order>12</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Arrive ICD</EnglishTitle>
+    <ChineseTitle>Arrive ICD</ChineseTitle>
+    <EnglishFormat>dd/MM/yyyy</EnglishFormat>
+    <ChineseFormat>dd/MM/yyyy</ChineseFormat>
+  </Columns>
+	<Columns>
+		<FieldName>DOReleaseDate</FieldName>
+		<FieldType>Date</FieldType>
+		<FieldWidth>90</FieldWidth>
+		<Order>13</Order>
+		<Visible>true</Visible>
+		<EnglishTitle>D/O Date</EnglishTitle>
+		<ChineseTitle>D/O Date</ChineseTitle>
+		<EnglishFormat>dd/MM/yyyy</EnglishFormat>
+		<ChineseFormat>dd/MM/yyyy</ChineseFormat>
+	</Columns>
+  <Columns>
+    <FieldName>CntrReturnDate</FieldName>
+    <FieldType>Date</FieldType>
+    <FieldWidth>100</FieldWidth>
+    <Order>14</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Return Date</EnglishTitle>
+    <ChineseTitle>Return Date</ChineseTitle>
+    <EnglishFormat>dd/MM/yyyy</EnglishFormat>
+    <ChineseFormat>dd/MM/yyyy</ChineseFormat>
+  </Columns>
+  <Columns>
+    <FieldName>CntrReturnType</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>100</FieldWidth>
+    <Order>15</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Return Type</EnglishTitle>
+    <ChineseTitle>Return Type</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>HODate</FieldName>
+    <FieldType>Date</FieldType>
+    <FieldWidth>100</FieldWidth>
+    <Order>16</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>H/O Date</EnglishTitle>
+    <ChineseTitle>H/O Date</ChineseTitle>
+    <EnglishFormat>dd/MM/yyyy</EnglishFormat>
+    <ChineseFormat>dd/MM/yyyy</ChineseFormat>
+  </Columns>
+  <Columns>
+    <FieldName>Owner</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>200</FieldWidth>
+    <Order>17</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Owner</EnglishTitle>
+    <ChineseTitle>Owner</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>CntrRemark</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>290</FieldWidth>
+    <Order>18</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Remark</EnglishTitle>
+    <ChineseTitle>Remark</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>CargoStatusCode</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>60</FieldWidth>
+    <Order>19</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Status</EnglishTitle>
+    <ChineseTitle>Status</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>CntrTransferDate</FieldName>
+    <FieldType>Date</FieldType>
+    <FieldWidth>100</FieldWidth>
+    <Order>20</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Date In</EnglishTitle>
+    <ChineseTitle>Date In</ChineseTitle>
+    <EnglishFormat>dd/MM/yyyy</EnglishFormat>
+    <ChineseFormat>dd/MM/yyyy</ChineseFormat>
+  </Columns>
+  <Columns>
+    <FieldName>PickupDate</FieldName>
+    <FieldType>Date</FieldType>
+    <FieldWidth>100</FieldWidth>
+    <Order>21</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Pickup Date</EnglishTitle>
+    <ChineseTitle>Pickup Date</ChineseTitle>
+    <EnglishFormat>dd/MM/yyyy</EnglishFormat>
+    <ChineseFormat>dd/MM/yyyy</ChineseFormat>
+  </Columns>
+  <Columns>
+    <FieldName>PickUpRef</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>100</FieldWidth>
+    <Order>22</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Pickup Ref No</EnglishTitle>
+    <ChineseTitle>Pickup Ref No</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>BillFlag</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>50</FieldWidth>
+    <Order>23</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Bill Flag</EnglishTitle>
+    <ChineseTitle>Bill Flag</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>VesselName</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>290</FieldWidth>
+    <Order>24</Order>
+    <Visible>false</Visible>
+    <EnglishTitle>Vessel</EnglishTitle>
+    <ChineseTitle>Vessel</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>OBLNo</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>290</FieldWidth>
+    <Order>25</Order>
+    <Visible>false</Visible>
+    <EnglishTitle>OBLNo</EnglishTitle>
+    <ChineseTitle>OBLNo</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>MasterJobNo</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>290</FieldWidth>
+    <Order>26</Order>
+    <Visible>false</Visible>
+    <EnglishTitle>Master Job</EnglishTitle>
+    <ChineseTitle>Master Job</ChineseTitle>
+  </Columns>
+</GridView>

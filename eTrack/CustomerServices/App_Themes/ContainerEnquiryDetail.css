@@ -1,0 +1,43 @@
+﻿.divline{text-align:left;padding-top:1px;padding-bottom:1px; padding-left :18px;}
+#divForm{text-align:left;vertical-align:middle;}
+#divTopNav{width:750px;}
+#divMiddle1{height:592px;width:748px;padding-top:10px; overflow-y:scroll; overflow-x:auto;}
+
+#divBottomNav{text-align:right; padding-top:8px;padding-right:20px;}
+
+#ulTopNav li span{width:130px;}
+
+#lblContainerNo{display:inline-block;width:150px;}
+#txtContainerNo{width:220px;}
+#lblETA{display:inline-block;width:150px;}
+#txtETA{width:220px;}
+#lblDischargeDate{display:inline-block;width:150px;}
+#dtsDischargeDate{width:220px;}
+#lblFinalDestDate{display:inline-block;width:150px;}
+#txtFinalDestDate{width:220px;}
+#lbDOReleaseDate{display:inline-block;width:150px;}
+#txtDOReleaseDate{width:220px;}
+#lblCntrReturnDate{display:inline-block;width:150px;}
+#txtCntrReturnDate{width:220px;}
+#lblCntrReturnType{display:inline-block;width:150px;}
+#drCntrReturnType{width:120px;}
+#lblHODate{display:inline-block;width:150px;}
+#txtHODate{width:220px;}
+#lblPickupDate{display:inline-block;width:150px;}
+#txtPickupDate{width:220px;}
+#lblShipmentDate{display:inline-block;width:150px;}
+#txtShipmentDate{width:220px;}
+#lblCntrRemark{display:inline-block;width:150px;}
+#txtCntrRemark{width:220px;}
+#lblCargoStatusCode{display:inline-block;width:150px;}
+#drCargoStatusCode{width:120px;}
+
+.lbl{display:inline-block;width:150px;}
+.txt{width:220px;}
+
+
+#divSource{height:340px; overflow-y:scroll; overflow-x:auto; border:1px solid #3B6592; margin-left:18px; margin-top:10px;}
+#divSource{width:680px;}
+
+#btnAdd{Width:70px; margin-right :550px;}
+

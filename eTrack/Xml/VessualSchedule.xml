@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Do not comment in <GridView></GridView> node,please comment here.
+-->
+<GridView>
+  <Columns>
+    <FieldName>VoyageID</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>100</FieldWidth>
+    <Order>1</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>VoyageID</EnglishTitle>
+    <ChineseTitle>VoyageID</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>ETD</FieldName>
+    <FieldType>Date</FieldType>
+    <FieldWidth>100</FieldWidth>
+    <Order>2</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Departure Date</EnglishTitle>
+    <ChineseTitle>ETD</ChineseTitle>
+    <EnglishFormat>dd/MM/yyyy</EnglishFormat>
+    <ChineseFormat>dd/MM/yyyy</ChineseFormat>
+  </Columns>
+  <Columns>
+    <FieldName>VesselCode</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>150</FieldWidth>
+    <Order>3</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Vessel Voyage</EnglishTitle>
+    <ChineseTitle>Vessel Voyage</ChineseTitle>
+  </Columns>
+    <Columns>
+    <FieldName>ShippinglineName</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>200</FieldWidth>
+    <Order>4</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Carrier</EnglishTitle>
+    <ChineseTitle>Carrier</ChineseTitle>
+  </Columns>
+  
+  <Columns>
+    <FieldName>PortofDischargeName</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>150</FieldWidth>
+    <Order>5</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Port Of Discharge</EnglishTitle>
+    <ChineseTitle>Port Of Discharge</ChineseTitle>
+  </Columns>
+  <Columns>
+    <FieldName>ETa</FieldName>
+    <FieldType>Date</FieldType>
+    <FieldWidth>100</FieldWidth>
+    <Order>6</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Arrival Date</EnglishTitle>
+    <ChineseTitle>Arrival Date</ChineseTitle>
+    <EnglishFormat>dd/MM/yyyy</EnglishFormat>
+    <ChineseFormat>dd/MM/yyyy</ChineseFormat>
+  </Columns>
+  <Columns>
+    <FieldName>TranSit</FieldName>
+    <FieldType>String</FieldType>
+    <FieldWidth>100</FieldWidth>
+    <Order>7</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Transit Time</EnglishTitle>
+    <ChineseTitle>Transit Time</ChineseTitle>
+  </Columns>
+</GridView>

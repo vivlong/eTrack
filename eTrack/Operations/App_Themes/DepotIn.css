@@ -1,0 +1,11 @@
+﻿.divline{text-align:center;padding-top:5px;padding-bottom:5px;}
+#divForm{text-align:center;}
+#divTopNav{width:540px;}
+#divMiddle{text-align:center;width:538px;height:250px; padding-top:40px; }
+#divBottomNav{width:520px;padding-top:5px;padding-right:20px;}
+
+#ulTopNav li span{width:150px;}
+.lbl{display:inline-block; width:180px;}
+.txt{width:250px;}
+.lblDate{display:inline-block; width:210px;}
+#rblSC{display:inline}

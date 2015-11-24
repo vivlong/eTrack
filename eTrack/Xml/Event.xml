@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Do not comment in <GridView></GridView> node,please comment here.
+-->
+<GridView>
+  <Property OrderBy="sTitle" />
+ 
+  <Columns>
+    <FieldName></FieldName>
+    <FieldType>DateTime</FieldType>
+    <FieldWidth>800</FieldWidth>
+    <Order>2</Order>
+    <Visible>true</Visible>
+    <EnglishTitle>Event Date</EnglishTitle>
+    <ChineseTitle>Event Date</ChineseTitle>
+    <EnglishFormat>dd/MM/yyyy</EnglishFormat>
+    <ChineseFormat>dd/MM/yyyy</ChineseFormat>
+  </Columns>
+</GridView>

@@ -1,0 +1,36 @@
+﻿/*Column Image */
+.colDelele{width:12px; cursor:hand;font-weight:bold} /*Delete Row */
+.colEdit{width:40px;font-weight:bold;} /*BaseInfo Edit Row */
+.colRoleInfo{width:60px;font-weight:bold;}
+.colListPrint{width:60px;font-weight:bold;}
+.colSelected{width:20px;}
+.colBar{width:18px;} /*Barcode Row */
+.colOneImg{width:18px;}
+/*Column Check */
+.colCheck{width:18px;} /* Selected or UnSelected Row */
+
+/*Column Auto */
+.colAuto{overflow:hidden;}
+
+/*#divSource, #divDestination*/
+div tr{vertical-align:middle; line-height:120%;word-wrap:break-word;border-color:#e8e8ec;}
+div td{vertical-align:middle; line-height:120%;border-color:#e8e8ec; }
+div tr.Header{background-color:#4633a7; text-align:center; cursor:hand;word-wrap:break-word;border-color:#e8e8ec;font-size:12px;color:#ffffff;}
+div tr.Footer{color:#e8e8ec;background-color:#e8e8ec;word-wrap:break-word;border-color:#e8e8ec;}
+div tr.Row{color:black;cursor:hand;border-color:#e8e8ec;word-wrap:break-word;}
+div tr.SelectRow{color:white;background-color:#e8e8ec; cursor:hand;border-color:#e8e8ec;}
+div tr.Pager {color:black;background-color:#e8e8ec;border-color:#e8e8ec;}
+/*div tr.Alternating{background-color:#F0F0F0; cursor:hand;}*/
+div tr.Alternating{background-color:#e8e8ec; cursor:hand;}
+/*div td{margin: 0px 1px; padding:0px 2px;border:1px solid ; word-wrap:break-word;}
+/*div td{margin: 0px 1px; padding:0px 2px ; border:1px solid ;}*/
+div input.gridInput{height:100%;width:100%; border:0px; padding-right:1px; text-align:right;}
+div input.remark{text-align:left;}
+
+.addImg{height:30px;width:28px; overflow:hidden;}
+.editImg{height:14px;width:14px; overflow:hidden;}
+.delImg{height:14px;width:14px; overflow:hidden;}
+.barImg{height:14px;width:14px; overflow:hidden;}
+.printImg{height:14px;width:14px; overflow:hidden;}
+.restoreImg{height:14px;width:14px; overflow:hidden;}
+.settingImg{height:14px;width:14px; overflow:hidden;}

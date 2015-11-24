@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AuditUnexpectedError" xml:space="preserve">
+    <value>审核过程中发生了不可预期的错误！</value>
+  </data>
+  <data name="BindDataErr" xml:space="preserve">
+    <value>An error happened when bind data.</value>
+  </data>
+  <data name="CalculateHint" xml:space="preserve">
+    <value>Recalculating Data,Please Wait..........</value>
+  </data>
+  <data name="CalculateUtilRateFailure" xml:space="preserve">
+    <value>Utilisation Rates Recalculate failure! (Exception: {0})</value>
+  </data>
+  <data name="CalculateUtilRateSuccess" xml:space="preserve">
+    <value>Utilisation Rates Recalculate success!</value>
+  </data>
+  <data name="CannotDelete" xml:space="preserve">
+    <value>Current selected cann't be deleted!</value>
+  </data>
+  <data name="CannotRestore" xml:space="preserve">
+    <value>Current selected cann't be restored!</value>
+  </data>
+  <data name="CloseAction" xml:space="preserve">
+    <value>Close {0}: "{1}"</value>
+  </data>
+  <data name="ConfirmClose" xml:space="preserve">
+    <value>Are you sure to close this request?</value>
+  </data>
+  <data name="ConfirmDelete" xml:space="preserve">
+    <value>Are you sure delete current selected record?</value>
+  </data>
+  <data name="ConfirmExitSystem" xml:space="preserve">
+    <value>Are you sure to exit system?</value>
+  </data>
+  <data name="ConfirmLogout" xml:space="preserve">
+    <value>Are you sure to logout?</value>
+  </data>
+  <data name="ConfirmReopen" xml:space="preserve">
+    <value>Are you sure to Re-open this request?</value>
+  </data>
+  <data name="ConfirmRestore" xml:space="preserve">
+    <value>Are you sure restore current selected record?</value>
+  </data>
+  <data name="ConfirmSave" xml:space="preserve">
+    <value>Are you sure save current {0}?</value>
+  </data>
+  <data name="CurrentCannotSave" xml:space="preserve">
+    <value>Current data cann't be saved!</value>
+  </data>
+  <data name="DeleteAction" xml:space="preserve">
+    <value>Delete {0}: "{1}"</value>
+  </data>
+  <data name="DeleteUnexpectedError" xml:space="preserve">
+    <value>删除数据过程中发生了不可预期的错误</value>
+  </data>
+  <data name="DetailSaveFailure" xml:space="preserve">
+    <value>Save detail failure!</value>
+  </data>
+  <data name="DirtyData" xml:space="preserve">
+    <value>Current data is modified, please save it!</value>
+  </data>
+  <data name="ErrorData" xml:space="preserve">
+    <value>The data on the server is not equal to current window's, please reopen this window!</value>
+  </data>
+  <data name="FileSizeTooBig" xml:space="preserve">
+    <value>File Size too big to upload!</value>
+  </data>
+  <data name="GeneralAuditFailure" xml:space="preserve">
+    <value>{0} audit failure. (Exception: {1})</value>
+  </data>
+  <data name="GeneralAuditSuccess" xml:space="preserve">
+    <value>{0} audit success.</value>
+  </data>
+  <data name="GeneralDeleteFailure" xml:space="preserve">
+    <value>{0} delete failure. (Exception: {1})</value>
+  </data>
+  <data name="GeneralDeleteSuccess" xml:space="preserve">
+    <value>{0} delete success.</value>
+  </data>
+  <data name="GeneralNotifyFailure" xml:space="preserve">
+    <value>{0} notify failure. (Exception: {1})</value>
+  </data>
+  <data name="GeneralNotifySuccess" xml:space="preserve">
+    <value>{0} notify success.</value>
+  </data>
+  <data name="GeneralRestoreFailure" xml:space="preserve">
+    <value>{0} restore failure. (Exception: {1})</value>
+  </data>
+  <data name="GeneralRestoreSuccess" xml:space="preserve">
+    <value>{0} restore success.</value>
+  </data>
+  <data name="GeneralSaveFailure" xml:space="preserve">
+    <value>{0} save failure. (Exception: {1})</value>
+  </data>
+  <data name="GeneralSaveSuccess" xml:space="preserve">
+    <value>{0} save success.</value>
+  </data>
+  <data name="GeneralUpdateFailure" xml:space="preserve">
+    <value>{0} update failure. (Exception: {1})</value>
+  </data>
+  <data name="GeneralUpdateSuccess" xml:space="preserve">
+    <value>{0} update success.</value>
+  </data>
+  <data name="GetUnexpectedError" xml:space="preserve">
+    <value>获取数据过程中发生了不可预期的错误！</value>
+  </data>
+  <data name="InBrowseState" xml:space="preserve">
+    <value>Current is in browse state!</value>
+  </data>
+  <data name="InInsertState" xml:space="preserve">
+    <value>Current is in add state!</value>
+  </data>
+  <data name="InOtherState" xml:space="preserve">
+    <value>Current is in other state !</value>
+  </data>
+  <data name="InsertAction" xml:space="preserve">
+    <value>Add {0}: "{1}"</value>
+  </data>
+  <data name="KeyAuditFailure" xml:space="preserve">
+    <value>{0} "{1}" audit failure.</value>
+  </data>
+  <data name="KeyAuditSuccess" xml:space="preserve">
+    <value>{0} "{1}" audit success.</value>
+  </data>
+  <data name="KeyDeleteFailure" xml:space="preserve">
+    <value>{0} "{1}" delete failure.</value>
+  </data>
+  <data name="KeyDeleteSuccess" xml:space="preserve">
+    <value>{0} "{1}" delete success.</value>
+  </data>
+  <data name="KeyRestoreFailure" xml:space="preserve">
+    <value>{0} "{1}" close failure.</value>
+  </data>
+  <data name="KeyRestoreSuccess" xml:space="preserve">
+    <value>{0} "{1}" close success.</value>
+  </data>
+  <data name="KeyReturnFailure" xml:space="preserve">
+    <value>{0} "{1}" withdraw failure.</value>
+  </data>
+  <data name="KeyReturnSuccess" xml:space="preserve">
+    <value>{0} "{1}" withdraw success.</value>
+  </data>
+  <data name="KeySaveFailure" xml:space="preserve">
+    <value>{0} "{1}" save failure.</value>
+  </data>
+  <data name="KeySaveSuccess" xml:space="preserve">
+    <value>{0} "{1}" save success.</value>
+  </data>
+  <data name="KeyUpdateFailure" xml:space="preserve">
+    <value>{0} "{1}" update failure.</value>
+  </data>
+  <data name="KeyUpdateSuccess" xml:space="preserve">
+    <value>{0} "{1}" update success.</value>
+  </data>
+  <data name="LoadDataHint" xml:space="preserve">
+    <value>Loading Data, Please Wait..........</value>
+  </data>
+  <data name="LoadTitleHint" xml:space="preserve">
+    <value>Loading Data......</value>
+  </data>
+  <data name="LoginSystem" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="MasterSaveFailure" xml:space="preserve">
+    <value>Save master failure!</value>
+  </data>
+  <data name="NewUnexpectedError" xml:space="preserve">
+    <value>新增过程中发生了不可预期的错误！</value>
+  </data>
+  <data name="NoLogin" xml:space="preserve">
+    <value>You are out of time or not login, please relogin!</value>
+  </data>
+  <data name="NotifyUnexpectedError" xml:space="preserve">
+    <value>通知审核过程中发生了不可预期的错误！</value>
+  </data>
+  <data name="OperateRecordClearFailure" xml:space="preserve">
+    <value>Operate record clear failure! (Exception: {0})</value>
+  </data>
+  <data name="OperateRecordClearSuccess" xml:space="preserve">
+    <value>Operate record clear success! Total {0} record be cleared!</value>
+  </data>
+  <data name="PrintUnexpectedError" xml:space="preserve">
+    <value>打印过程中发生了不可预期的错误！</value>
+  </data>
+  <data name="ReopenAction" xml:space="preserve">
+    <value>Reopen {0}: "{1}"</value>
+  </data>
+  <data name="RequestMailBody" xml:space="preserve">
+    <value>Request Summary
+
+    Request Date: {0}
+    Version: {1} 
+    Track No: {12} 
+    Request No: {16}
+    Requestor: {2}
+    Change Summary: {3}
+ 
+    Form: {4}
+    Attachment: {5}
+    PlatForm: {6} 
+    Type: {7}
+    Module: {8} 
+    Request Purpose: {9}
+    Request Description: {10}
+
+    Assign to: {13}
+    Fix Version: {14}
+    Expect Completion Date: {15}</value>
+  </data>
+  <data name="RequestMailTitle" xml:space="preserve">
+    <value>You have a Request from {0}</value>
+  </data>
+  <data name="RestoreAction" xml:space="preserve">
+    <value>Request Summary
+
+    Request Date: {0}
+    Version: {1} 
+    Track No: {12} 
+    Request No: {16}
+    Requestor: {2}
+    Change Summary: {3}
+ 
+    Form: {4}
+    Attachment: {5}
+    PlatForm: {6} 
+    Type: {7}
+    Module: {8} 
+    Request Purpose: {9}
+    Request Description: {10}
+    Current Status: {17}
+
+    Assign to: {13}
+    Fix Version: {14}
+    Expect Completion Date: {15}</value>
+  </data>
+  <data name="RestoreUnexpectedError" xml:space="preserve">
+    <value>撤消过程中发生了不可预期的错误！</value>
+  </data>
+  <data name="SaveDataHint" xml:space="preserve">
+    <value>Saving Data,Please Wait..........</value>
+  </data>
+  <data name="SaveUnexpectedError" xml:space="preserve">
+    <value>保存数据过程中发生了不可预期的错误！</value>
+  </data>
+  <data name="SentAudit" xml:space="preserve">
+    <value>Are you sure to send to manager to audit?</value>
+  </data>
+  <data name="StopTooLong" xml:space="preserve">
+    <value>stop current window too long, please reopen this window!</value>
+  </data>
+  <data name="TimeOut" xml:space="preserve">
+    <value>Operate time too long, current window's data is invalid!</value>
+  </data>
+  <data name="UnmatchedParam" xml:space="preserve">
+    <value>Unmatched parameter!</value>
+  </data>
+  <data name="UpdateAction" xml:space="preserve">
+    <value>Modify {0}: "{1}"</value>
+  </data>
+  <data name="UserNotExists" xml:space="preserve">
+    <value>User No:{0} is not exists in system!</value>
+  </data>
+  <data name="WrongPassword" xml:space="preserve">
+    <value>Invalid password!</value>
+  </data>
+</root>

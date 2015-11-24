@@ -1,0 +1,24 @@
+﻿a:link {color: #3366cc; font-family: Arial; text-decoration: none}
+a:visited {color: #3366cc; text-decoration: none}
+a:active {color: #6699ff; text-decoration: none}
+a:hover {color: #ff4400; text-decoration: none}
+a.whitehref:link {color: #ffffff; text-decoration: none}
+a.whitehref:visited {color: #ffffff; text-decoration: none}
+a.whitehref:active {color: #6699ff; text-decoration: none}
+a.whitehref:hover {color: #ff4400; text-decoration: none}
+a.blackhref {color: #000000}
+a.blackhref:visited {color: #000000}
+a.blackhref:hover {color: #ff4400}
+a.blackhref:active {color: #ff6600}
+a.menuhref:link {font-size: 12px; color: #a5cbf8; text-decoration: none}
+a.menuhref:visited {font-size: 12px; color: #a5cbf8; text-decoration: none}
+a.menuhref:hover {font-size: 12px; color: red; text-decoration: underline}
+a.bthref:link {color: #ffffff; text-decoration: none}
+
+body{margin:0px 0px 0px 0px;padding:0px;background-color:#fff}
+body,td,p,li,select,input{font-size:12px; font-family:"Arial",Arial, Helvetica, sans-serif;}
+body {scrollbar-face-color: #9EBFE8; scrollbar-shadow-color: #FFFFFF; scrollbar-highlight-color: #FFFFFF; scrollbar-3dlight-color: #9EBFE8; scrollbar-darkshadow-color: #9EBFE8; scrollbar-track-color: #FFFFFF; scrollbar-arrow-color: #FFFFFF}
+
+.divNode{height: 18px;vertical-align:middle;cursor:hand; width:100%}
+.textNode{display: inline-block;margin-bottom: 3px;}
+.divline1{height:30px;}

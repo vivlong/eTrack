@@ -1,0 +1,15 @@
+﻿.divline{text-align:center;padding-top:5px;padding-bottom:5px;}
+#divForm{text-align:center;}
+#divTopNav{width:540px;}
+#divMiddle{text-align:center;width:538px;height:220px; padding-top:50px; }
+#divBottomNav{width:520px;padding-top:5px;padding-right:20px; position:fixed; bottom:auto;}
+#ulTopNav li span{width:230px;}
+
+.lblDate{display:inline-block; width:100px;}
+.bntDate{width:20px;}
+.lbl{display:inline-block; width:100px;}
+#divResult{ width:100%;}
+.Header{background-color:#E6EEF7; text-align:center; cursor:hand;word-wrap:break-word;border-color:#d3d3d3;}
+.celCenter{text-align:center;}
+.celLeft{text-align:left;}
+.lborder{ border :1px;}

@@ -1,0 +1,27 @@
+﻿.divline{text-align:left;padding-top:3px;padding-bottom:3px;width:98%}
+#divForm{text-align:left;margin-top:5px;}
+
+#txtSearch{ height:19px!important;height:18px;width:300px;}
+#drpSearch{width:110px;}
+#lblFrom{width:40px;display:inline-block;margin-left:10px;}
+#drpFrom{width:110px}
+#txtFrom{width:100px}
+#lblTo{width:28px;display:inline-block;margin-left:10px;}
+#drpTo{width:90px}
+#txtTo{width:100px}
+#btnForm{width:20px;}
+#btnTo{width:20px;}
+.divTrans{padding-left :10px; padding-top :3px; padding-bottom :3px;}
+.lbl{display:inline-block; width:120px;}
+.lbl3{display:inline-block; width:180px;}
+.lbl2{display:inline-block; width:60px;}
+.lblBottom{display:inline-block; width:123px;}
+.txt{width:290px;}
+.txt2{width:200px;}
+#divSource2{height:100px; overflow-y:scroll; overflow-x:auto; border:1px solid #3B6592; margin-left:1px;}
+#divSource2{width:expression(document.body.clientWidth - 4 +"px");}
+#divSource3{height:270px; overflow-y:scroll; overflow-x:auto; border:1px solid #3B6592; margin-left:1px;}
+#divSource3{width:expression(document.body.clientWidth - 4 +"px");}
+
+#divSource4{height:270px; overflow-y:scroll; overflow-x:auto; border:1px solid #3B6592; margin-left:1px;}
+#divSource4{width:expression(document.body.clientWidth - 4 +"px");}

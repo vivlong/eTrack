@@ -1,0 +1,50 @@
+﻿.divline{padding-top:1px; padding-bottom:1px;}
+.divlineLeft{margin-top:3px; padding-left:5px;}
+.divlineRight{margin-top:3px;}
+.divlineLeftMu{margin-top:3px; padding-left:5px; vertical-align:top;}
+.divlineRightMu{margin-top:3px; vertical-align:top;}
+#divForm{text-align:left;}
+#divTopNav{width:100%;}
+#divMiddle1{width:100%; padding-bottom:30px; padding-left: 20px;padding-top: 10px}
+#divBottomNav{text-align:right; width:100%; padding-top:8px;padding-right:20px;}
+#ulTopNav li span.Size{width:100px;}
+#divMiddle11{float:left; margin-left:2px; margin-top:2px;margin-bottom:2px;}
+#divMiddle12{float:left ;margin-right:2px;margin-top:2px;margin-bottom:2px; padding-left:30px}
+#divSource{width :99.5%;}
+.lbl{display:inline-block; width:140px; padding-left:2px;}
+.lblRight1{display:inline-block; width:50px; margin-left :20px;}
+.lblRight2{display:inline-block; width:100px; margin-left :70px;}
+.lblRight3{display:inline-block; width:64px; margin-left :30px;}
+.span{display:inline-block; width:140px;}
+.span1{display:inline-block; width:142px;}
+.txt{width:300px;}
+.txt1{width:77px;}
+.txtNo{width:117px;}
+.txtNo1{width:110px;}
+.txtNo2{width:126px;}
+.Hide{display:none;}
+.bntDate{width:20px;}
+.txtDate{width:100px;}
+.txtJobNo{width:137px;}
+.txtName{width:235px;}
+.txtVessel{width:184px;}
+.inline{display:inline-block;}
+.txtCode{width:50px;}
+.colFileName{width:auto;overflow:hidden;}
+.colFileSize{width:100px;}
+.colFileDate{width:135px;}
+
+.colNo{width:10px;}
+.colModifyBy{width:110px;}
+.colModifyAt{width:110px;}
+.colTable{width:110px;}
+.colFieldName{width:110px;}
+.colType{width:110px;}
+.colLen{width:110px;}
+.colView{width:110px;}
+.MarkHigth{height:170px;}
+.MarkWidth{width:300px; }
+.MarkType{float:left;}
+.MarkPad{padding-left:120px;padding-right:50px;}
+.btnNew2Pad{padding-left:0px;}
+.btnSave2Pad{padding-left:0px;}

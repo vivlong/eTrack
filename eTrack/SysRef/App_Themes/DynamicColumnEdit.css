@@ -1,0 +1,13 @@
+﻿.divline{text-align:left;padding-top:5px;padding-bottom:5px;padding-left:10px}
+#divForm{text-align:center;}
+#divTopNav{width:590px;}
+#divMiddle{text-align:center;width:588px;height:352px; padding-top:1px; overflow-y:scroll; overflow-x:auto; }
+#gvwSource{width:570px;}
+#divBottomNav{width:570px;padding-top:5px;padding-right:20px;}
+#ulTopNav li span{width:150px;}
+#btnDefault{margin-left:10px;width:100px;}
+
+.colTitle{width:auto;overflow:hidden;}
+.colPosition{width:100px;}
+.colWidth{width:156px;}
+.colVisible{width:98px;}

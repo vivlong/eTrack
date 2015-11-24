@@ -1,0 +1,59 @@
+﻿.divline{padding-top:0px; padding-bottom:0px;}
+.divInline{display: inline;}
+#drReleaseType{display: inline;}
+#divForm{text-align:left;}
+.divBottom{ float:left; width :100%;}    
+ /*
+#divTopNav{width:expression(document.body.clientWidth < 875? 878:document.body.clientWidth +"px");}
+#divBottomNav{text-align:right; padding-top:8px;width:expression(document.body.clientWidth-10 < 875? 875:document.body.clientWidth +"px");}
+#divMiddle1{width:expression(document.body.clientWidth-2 < 875? 875:document.body.clientWidth-2 +"px");}
+ */
+ #divBottomNav{text-align:right; padding-top:8px; position:absolute ; bottom :5px; left:0px;}
+#divMiddle1{float:left; margin-left:2px; margin-top:2px;margin-bottom:2px;}
+#divMiddle11{float:left; margin-left:2px; margin-top:2px;margin-bottom:2px;}
+#divMiddle12{float:left ;margin-right:2px;margin-top:2px;margin-bottom:2px; padding-left:160px;}
+#ulTopNav li span.Size{width:100px;}
+
+#divTitle1{float:left; margin-left:2px; margin-top:2px;margin-bottom:2px;}
+#divTitle2{float:left; margin-left:2px; margin-top:2px;margin-bottom:2px;}
+#divCotent1{float:left; margin-left:2px; margin-top:2px;margin-bottom:2px;}
+.bgColor{background-color :#eeeeee;height:20px;clear: both; display:inline; width :160px;}
+
+.tdBorder{border:0px;}
+.lblank{width:250px;}
+.txtBlank{width:300px;}
+.lblankB{display:inline-block; width:323px;}
+.td{ border:0px; width:150px; background-color :#eeeeee;}
+.tdtxt{ border:0px; width:120px;}
+.tdF{ border:0px;width:180px; background-color :#eeeeee;}
+.tdS{ border:0px;width:180px; margin-left :10px;background-color :#eeeeee;}
+.tdT{ border:0px;width:180px;background-color :#eeeeee;}
+
+
+.CheckBox{display:inline-block;text-align:left;width:80px;}
+.CheckBox1{display:inline-block;text-align:left;width:20px;}
+.lbl{display:inline-block; width:150px;height:26px; padding-left :5px; background-color :#eeeeee;}
+.txt{width:100px; clear:both;}
+.DropDown{width:102px;display:inline-block;}
+.bntDate{width:20px;}
+.txtDate{width:100px;}
+.inline{display:inline;}
+.twoLine{height: 40px;}
+.VoyageNo{display:inline-block; width:130px; }
+.Prot{display:inline-block; width:130px; padding-left :10px;}
+.txtProt{width:100px;}
+.10Width{width: 10%;}
+ /*Control Style*/
+.lblTop{vertical-align :top;}
+ #lblRegTrucking{height :48px;}
+.inner{width: 183px;height: 48px;float :left ;}
+.inner2{width: 250px;height: 48px;}
+* html .inner{display: inline;}
+/*for mozilla */
+html > body .inner{display: table;float: left;}
+/*for mozilla */
+@media all and (min-width: 0px)
+{/* opera 7 styles */
+html > body .inner{display: inline-block;float: none;}
+}
+ /*Control Style*/
