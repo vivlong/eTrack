@@ -18,7 +18,7 @@ website.publishproj
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{89bc2106-517a-42c0-9ebc-9ae6749bdf77}</ProjectGuid>
     <SourceWebPhysicalPath>$(MSBuildThisFileDirectory)</SourceWebPhysicalPath>
-    <SourceWebVirtualPath>/eTrackV10</SourceWebVirtualPath>
+    <SourceWebVirtualPath>/eTrack</SourceWebVirtualPath>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <SourceWebProject>D:\eTrack_VS2010\eTrackV10</SourceWebProject>
     <SourceWebMetabasePath>/IISExpress/7.5/LM/W3SVC/3/ROOT</SourceWebMetabasePath>

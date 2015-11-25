@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "eTrackV10", "eTrack\", "{86CD0CE5-05BE-44F1-9F12-53A79003C07E}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "eTrack", "eTrack\", "{86CD0CE5-05BE-44F1-9F12-53A79003C07E}"
 	ProjectSection(WebsiteProperties) = preProject
 		SccProjectName = ""
 		SccAuxPath = ""
