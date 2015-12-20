@@ -1,6 +1,7 @@
 ﻿Imports System.Web
 Imports System.IO
 Imports System.Web.UI
+Imports System.Web.UI.WebControls
 Imports CrystalDecisions.Web
 Imports CrystalDecisions.Shared
 Imports CrystalDecisions.CrystalReports.Engine
@@ -9,6 +10,7 @@ Imports System.Collections.Specialized
 Imports SysMagic.ExportExcel
 Imports SysMagic.SystemClass
 Imports SysMagic.ZZSystem
+
 Partial Class Print_crPrintToReport
     Inherits System.Web.UI.Page
     Private Sub OutToFile(ByVal strFileName As String, ByVal crs As CrystalReportSource, ByVal Response As HttpResponse)

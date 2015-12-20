@@ -11,6 +11,7 @@ Imports SysMagic.SystemClass
 Imports SysMagic.ZZSystem
 Imports SysMagic.ZZMessage
 Imports SysMagic
+Imports System.Web.UI.WebControls
 
 Partial Class Print_VesselSchedule
     Inherits System.Web.UI.Page
@@ -129,14 +130,14 @@ Partial Class Print_VesselSchedule
             crvVesselSchedule.DataBind()
             'ExportData(crsVesselSchedule.ReportDocument)
 
-        Catch engEx As LogOnException
-            MsgBox("LogonExp - " + ZZMessage.clsMessage.GetErrorMessage(engEx))
+								Catch engEx As LogOnException
+												MsgBox("LogonExp - " + ZZMessage.clsMessage.GetErrorMessage(engEx))
         Catch engEx As DataSourceException
             MsgBox("DataSourceExp - " + ZZMessage.clsMessage.GetErrorMessage(engEx))
         Catch engEx As EngineException
             MsgBox("EngineExp -  " + ZZMessage.clsMessage.GetErrorMessage(engEx))
         Catch ex As Exception
-            MsgBox("Other Error -  " + ZZMessage.clsMessage.GetErrorMessage(ex))
+												MsgBox("Other Error -  " + ZZMessage.clsMessage.GetErrorMessage(ex))
         End Try
 
     End Sub
