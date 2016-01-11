@@ -14,14 +14,12 @@ Imports SysMagic
 Imports System.Web.UI.WebControls
 
 Partial Class Print_VesselSchedule
-    Inherits System.Web.UI.Page
-
-    Dim dtRec As DataTable
-
+				Inherits System.Web.UI.Page
+				Dim dtRec As DataTable
     Dim myTableLogonInfos As CrystalDecisions.Shared.TableLogOnInfos
     Dim myTableLogonInfo As CrystalDecisions.Shared.TableLogOnInfo
     Dim myConnectionInfo As CrystalDecisions.Shared.ConnectionInfo
-    Dim m_blnSingleRecord As Boolean = True
+				Dim m_blnSingleRecord As Boolean = True
 
     Private Sub BuildConnectionString()
         Session("UserID") = System.Configuration.ConfigurationManager.AppSettings("UserId")
@@ -98,48 +96,44 @@ Partial Class Print_VesselSchedule
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         Dim intId As Int64 = PageFun.GetPrintId(Page)
-        crsVesselSchedule.Report.FileName = "..\Report\CustomerServices\rptRcvy11.rpt"
-
+								crsVesselSchedule.Report.FileName = "..\Report\CustomerServices\rptRcvy11.rpt"
         ''BindTable(intId)
         ''Exit Sub
-        Call BuildConnectionString()
-
-        Try
-
-            If Not LogonReport(Session("UserID"), Session("Password"), Session("Server"), Session("Database")) Then Exit Sub
-            If Not InsertSelectionFormula() Then Exit Sub
-
-            crvVesselSchedule.LogOnInfo = myTableLogonInfos
-            crvVesselSchedule.ReportSource = crsVesselSchedule
-
-            If m_blnSingleRecord Then
-                '    'no toolbar and side slider
-                'crvVesselSchedule.Attributes.Add("style", "LEFT: 6px")
-                'crvVesselSchedule.Attributes.Add("style", "TOP: 6px")
-                crvVesselSchedule.DisplayGroupTree = False
-                '    crvVesselSchedule.DisplayToolbar = False
-            Else
-                crvVesselSchedule.DisplayGroupTree = True
-            End If
-            'Else 'more than 1 record ...
-            crvVesselSchedule.Attributes.Add("style", "LEFT: 6px")
-            crvVesselSchedule.Attributes.Add("style", "TOP: 0px")
-            crvVesselSchedule.DisplayGroupTree = True
-            crvVesselSchedule.DisplayToolbar = True
-            'End If
-            crvVesselSchedule.DataBind()
-            'ExportData(crsVesselSchedule.ReportDocument)
-
+								Call BuildConnectionString()
+								Try
+												If Not LogonReport(Session("UserID"), Session("Password"), Session("Server"), Session("Database")) Then Exit Sub
+												If Not InsertSelectionFormula() Then Exit Sub
+												crvVesselSchedule.LogOnInfo = myTableLogonInfos
+												crvVesselSchedule.ReportSource = crsVesselSchedule
+												If m_blnSingleRecord Then
+																'    'no toolbar and side slider
+																'crvVesselSchedule.Attributes.Add("style", "LEFT: 6px")
+																'crvVesselSchedule.Attributes.Add("style", "TOP: 6px")
+																crvVesselSchedule.DisplayGroupTree = False
+																'    crvVesselSchedule.DisplayToolbar = False
+												Else
+																crvVesselSchedule.DisplayGroupTree = True
+												End If
+												'Else 'more than 1 record ...
+												crvVesselSchedule.Attributes.Add("style", "LEFT: 6px")
+												crvVesselSchedule.Attributes.Add("style", "TOP: 0px")
+												crvVesselSchedule.DisplayGroupTree = True
+												crvVesselSchedule.DisplayToolbar = True
+												'End If
+												crvVesselSchedule.DataBind()
+												'ExportData(crsVesselSchedule.ReportDocument)
 								Catch engEx As LogOnException
-												MsgBox("LogonExp - " + ZZMessage.clsMessage.GetErrorMessage(engEx))
-        Catch engEx As DataSourceException
-            MsgBox("DataSourceExp - " + ZZMessage.clsMessage.GetErrorMessage(engEx))
-        Catch engEx As EngineException
-            MsgBox("EngineExp -  " + ZZMessage.clsMessage.GetErrorMessage(engEx))
-        Catch ex As Exception
-												MsgBox("Other Error -  " + ZZMessage.clsMessage.GetErrorMessage(ex))
-        End Try
-
+												Response.Write("<script language=javascript>alert('LogonExp - " + ZZMessage.clsMessage.GetErrorMessage(engEx) + "') </script>")
+								Catch engEx As DataSourceException
+												'MsgBox("DataSourceExp - " + ZZMessage.clsMessage.GetErrorMessage(engEx))
+												Response.Write("<script language=javascript>alert('DataSourceExp - " + ZZMessage.clsMessage.GetErrorMessage(engEx) + "') </script>")
+								Catch engEx As EngineException
+												'MsgBox("EngineExp - " + ZZMessage.clsMessage.GetErrorMessage(engEx))
+												Response.Write("<script language=javascript>alert('EngineExp - " + ZZMessage.clsMessage.GetErrorMessage(engEx) + "') </script>")
+								Catch ex As Exception
+												'MsgBox("Other Error - " + ZZMessage.clsMessage.GetErrorMessage(ex))
+												Response.Write("<script language=javascript>alert('Other Error - " + ZZMessage.clsMessage.GetErrorMessage(ex) + "') </script>")
+								End Try
     End Sub
 
     Public Sub ExportData(ByRef oRpt As Object)
